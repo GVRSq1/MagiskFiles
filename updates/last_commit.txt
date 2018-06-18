@@ -1,0 +1,2 @@
+Update default flag logic, fix S9/S9+ DTB patches
+

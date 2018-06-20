@@ -1,0 +1,7 @@
+fbf3588 fix typos
+a82ef6b MagiskHide: add ro.boot.vbmeta.device_state=locked
+312466a Prevent setting zero over than bound
+c0ca99f Make sure APK exists before signing AVB 1.0
+196f15d Fix survival script for AVB 1.0 signed boot image
+bfddef2 Bump Magisk Manager
+44395e8 Fix root loss issue when MagiskHide is enabled

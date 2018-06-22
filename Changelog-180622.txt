@@ -1,0 +1,3 @@
+Precise free space calculation for magisk.img
+Add more indentation
+More elaborate bb_setup

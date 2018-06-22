@@ -1,3 +1,6 @@
+7265450 Precise free space calculation for magisk.img
+058dbc9 Add more indentation
+daf9b01 More elaborate bb_setup
 14eebd5 Source addon.d script from data
 9a8eeac Fix output of addon.d, and add support for addon.d-v2
 45b0bf5 Remove unnecessary variable
@@ -119,10 +122,6 @@ a9320db [PATCH] telnet/telnetd: add missing header
 fa4d897 [PATCH] Fix df missing header on API <21
 1f165aa [PATCH] Fix mntent patch linking error "multiple definition of `getmntent'"
 297213c [PATCH] android: fix 'mount', 'umount', 'fsck', 'df'
-509f987 Bump version to 1.28.4
-d591256 nsenter: fix parsing of -t, -S and -G options
-adb6976 nsenter: Rename --network option to --net
-70baf85 dpkg: fix symlink creation, closes 10941
 42607f2 tests: Fix incorrect check name 'prop_name_chars'
 9d78c33 tests: fix grep for checks error messages
 b770f3d pylibfdt: Support setting the name of a node
@@ -162,9 +161,6 @@ f0be81b Make Property a subclass of bytearray
 628c1fb Merge branch 'master' of https://github.com/nrgiii/lz4 into aix_32bit_fuzzer
 ebe7e35 Fix AIX 32 bit build problem of fuzzer.c
 ef4f1e3 Merge pull request #542 from wbx-github/dev
-6a5f8d5 Merge pull request #541 from felixhandte/hc-extern-c
-6a7af83 allow to override uname when cross-compiling
-b821154 Also Fix Appveyor Cast Warning
 6a21356 Add --no-strip-path command line option (#326)
 29d5740 Update daemon
 2c5a36a Rename entry

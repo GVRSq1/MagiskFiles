@@ -1,0 +1,5 @@
+Revert "Remove invincible mode"
+Revert "Get device blocks with sysfs"
+Add generated files for ndk-build
+[PATCH] support ndk-build
+Revert "Update daemon"

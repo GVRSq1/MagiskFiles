@@ -1,3 +1,5 @@
+25106f8 Revert "Remove invincible mode"
+5a42775 Revert "Get device blocks with sysfs"
 7265450 Precise free space calculation for magisk.img
 058dbc9 Add more indentation
 daf9b01 More elaborate bb_setup
@@ -42,7 +44,6 @@ ef2f8d4 Add key alias option to config.prop
 9fb9212 Add stub apk support
 f31a24b Update setenv functions (also fixes uninstalling)
 b436bce Minor optimizations
-886286a Disable config ondemand when using Gradle > 4.6
 4ff39f8 Update to libsu 1.2.0
 1df4100 Update strings.xml
 1f39ee4 Create strings.xml
@@ -75,8 +76,8 @@ b2105f2 Optimize drawables
 15726a7 Update zh-rCN translation
 2c7474e Update Bulgarian translation
 c726aee update Ukrainian translation
-e074d81 Add generated files for ndk-build
-f68ea92 [PATCH] support ndk-build
+47a1fdd Add generated files for ndk-build
+70a51fd [PATCH] support ndk-build
 e5e089c [PATCH] ash history
 5f0f9e0 [PATCH] dietlibc/dnscruft: try to get dns server via command if __sys_property_get fails
 ce1db7c [PATCH] hack: use dietlibc's resolver to avoid static compiliation
@@ -162,6 +163,7 @@ f0be81b Make Property a subclass of bytearray
 ebe7e35 Fix AIX 32 bit build problem of fuzzer.c
 ef4f1e3 Merge pull request #542 from wbx-github/dev
 6a21356 Add --no-strip-path command line option (#326)
+b95d445 Revert "Update daemon"
 29d5740 Update daemon
 2c5a36a Rename entry
 a2912a3 Simplify su_info cache

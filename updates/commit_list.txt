@@ -1,5 +1,6 @@
-25106f8 Revert "Remove invincible mode"
-5a42775 Revert "Get device blocks with sysfs"
+6aa34e1 Revert "Remove invincible mode"
+d1a7372 fix a bug when $ABILONG is arm64-v8a
+e837bdc Update BusyBox
 7265450 Precise free space calculation for magisk.img
 058dbc9 Add more indentation
 daf9b01 More elaborate bb_setup
@@ -40,10 +41,9 @@ a7ceb04 Fix early mount on S9/S9+
 b3cd83b magiskinit: Only unmount /system and /vendor if it was mounted by magisk
 b8bd83b Update busybox to 1.28.4
 34dcf49 Update restorecon implementation
-ef2f8d4 Add key alias option to config.prop
-9fb9212 Add stub apk support
-f31a24b Update setenv functions (also fixes uninstalling)
-b436bce Minor optimizations
+7684602 More fixes for non-root devices
+4601989 Speed up startup time
+23f697d Fix non-root boot patching
 4ff39f8 Update to libsu 1.2.0
 1df4100 Update strings.xml
 1f39ee4 Create strings.xml
@@ -72,10 +72,6 @@ b2105f2 Optimize drawables
 4126f3b Update README
 74ccfe6 No more PNGs!
 48085b5 Implement stub Magisk Manager
-7b9ddc9 Add new flavor: stub
-15726a7 Update zh-rCN translation
-2c7474e Update Bulgarian translation
-c726aee update Ukrainian translation
 47a1fdd Add generated files for ndk-build
 70a51fd [PATCH] support ndk-build
 e5e089c [PATCH] ash history
@@ -163,7 +159,7 @@ f0be81b Make Property a subclass of bytearray
 ebe7e35 Fix AIX 32 bit build problem of fuzzer.c
 ef4f1e3 Merge pull request #542 from wbx-github/dev
 6a21356 Add --no-strip-path command line option (#326)
-b95d445 Revert "Update daemon"
+c83c223 Revert "Update daemon"
 29d5740 Update daemon
 2c5a36a Rename entry
 a2912a3 Simplify su_info cache

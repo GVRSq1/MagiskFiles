@@ -1,4 +1,8 @@
-6aa34e1 Revert "Remove invincible mode"
+c0ac2d5 Update build.py to build Magisk Manager
+528634d Remove unused code
+3283439 New uninstaller
+c8216f9 Fix uninstaller
+e579f31 Fix MagiskSU force denying root access
 d1a7372 fix a bug when $ABILONG is arm64-v8a
 e837bdc Update BusyBox
 7265450 Precise free space calculation for magisk.img
@@ -41,6 +45,8 @@ a7ceb04 Fix early mount on S9/S9+
 b3cd83b magiskinit: Only unmount /system and /vendor if it was mounted by magisk
 b8bd83b Update busybox to 1.28.4
 34dcf49 Update restorecon implementation
+e86015b New uninstallation method
+c8f65fc Fix selinux error while installing Magisk on some devices
 7684602 More fixes for non-root devices
 4601989 Speed up startup time
 23f697d Fix non-root boot patching
@@ -159,7 +165,8 @@ f0be81b Make Property a subclass of bytearray
 ebe7e35 Fix AIX 32 bit build problem of fuzzer.c
 ef4f1e3 Merge pull request #542 from wbx-github/dev
 6a21356 Add --no-strip-path command line option (#326)
-c83c223 Revert "Update daemon"
+ead8c03 Several adjustments
+8a35ea2 Fix force denying on exit
 29d5740 Update daemon
 2c5a36a Rename entry
 a2912a3 Simplify su_info cache

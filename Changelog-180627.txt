@@ -1,0 +1,9 @@
+Update build.py to build Magisk Manager
+Remove unused code
+New uninstaller
+Fix uninstaller
+Fix MagiskSU force denying root access
+New uninstallation method
+Fix selinux error while installing Magisk on some devices
+Several adjustments
+Fix force denying on exit

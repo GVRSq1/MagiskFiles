@@ -40,11 +40,20 @@ f6ee252 magiskboot: Check dtb header content to avoid false positives
 90d218e Update SafetyNet extension implementation
 b0a5dbb Push to SDK 28
 0abdfda Fix busybox issues
-a7ceb04 Fix early mount on S9/S9+
-274efb4 Fix modules installation error
-b3cd83b magiskinit: Only unmount /system and /vendor if it was mounted by magisk
-b8bd83b Update busybox to 1.28.4
-34dcf49 Update restorecon implementation
+6029649 update Ukrainian strings
+20c20f8 Update RU strings
+f1d642a  Updated german full/res strings
+e0e5ea1 Update zh-rCN translation
+91a0ba7 add romanian translation for stub
+c54c5a9 full: Update Indonesian translations
+532b8c5 Update Strings.xml Full Version
+5ac8789 Update Bulgarian translation
+2d905ce Don't popup changelogs on launch
+831112a Hide install to second slot option until Magisk properly supports it
+153d0f5 Small optimization to UpdateRepos
+c78896a Get rid of error logs
+316ec98 Rewrite Magisk log fragment
+cf58545 Move shell code into scripts
 e86015b New uninstallation method
 c8f65fc Fix selinux error while installing Magisk on some devices
 7684602 More fixes for non-root devices
@@ -73,58 +82,10 @@ baa4394 Minor French translation update
 4dbcd54 Initial stub app translation to Indonesian
 11062f2 Create strings.xml
 a046608 New permissions targeting SDK 28
-f2f7d77 Fix language settings UI
-b2105f2 Optimize drawables
-4126f3b Update README
-74ccfe6 No more PNGs!
-48085b5 Implement stub Magisk Manager
 47a1fdd Add generated files for ndk-build
 70a51fd [PATCH] support ndk-build
-e5e089c [PATCH] ash history
-5f0f9e0 [PATCH] dietlibc/dnscruft: try to get dns server via command if __sys_property_get fails
-ce1db7c [PATCH] hack: use dietlibc's resolver to avoid static compiliation
-21df763 [PATCH] fix nslookup, add libres, a dietlibc resolver
-45a8a5b [PATCH] setpriv/run-init: replace old headers
-9b3bcd6 [PATCH] fix tls: avoid problematic ASM code only triggered by x86 NDK builds
-007a71f [PATCH] fix reboot+poweroff: hack android_reboot support
-0679812 [PATCH] depmod: fix syntax with modules in parameter
-3e155b2 [PATCH] modinfo/modprobe: use ifdef block for android without-utsrel modules path
-deb4743 [PATCH] fix readahead, add syscall
-9e5a9ab [PATCH] fix hush, add glob and sigisemptyset
-3482b2e [PATCH] fix time+hush: add missing definitions on Android API 21+
-64f6703 [PATCH] fix udhcpc6: add missing ifaddrs.h and getifaddrs/freeifaddrs functions
-57b5e0d [PATCH] additional fix-up for IPV6 on Android API 21+
-38ba2f1 [PATCH] fix ipv6, add ipv6_route.h
-ea33911 [PATCH] ipneigh/iproute/iprule: add missing headers
-1a17614 [PATCH] fix microcom, add cfsetspeed syscall from glibc
-1faa5e3 [PATCH] fix fsck.minix, mkfs.minix: undef HAVE_SETBIT,
-69be02e [PATCH] blkdiscard; add missing linux/fs.h defines to libbb.h for ANDROID API <21
-4c544bf [PATCH] missing_syscalls/semctl: fix missing definitions on x86 and
-3d258a0 [PATCH] fix syslogd, logread: add syslog.h, semop shmdt-at
-b718455 [PATCH] android syscalls: shmdt shmat sembuf
-162a0c6 [PATCH] fix ipcs, ipcrm no sys/sem-shm-msg, use linux/sem.h etc
-5a507fb [PATCH] android syscall (non-trivial): semctl
-59707d6 [PATCH] android syscalls: msgctl shmctl
-ee67a9a [PATCH] android syscalls: shmget/msgget/semget
-007c72f [PATCH] fix swapon, swapoff: comment out MNTOPT_NOAUTO
-aefa3e0 [PATCH] add swapoff/swapon syscalls for android
-f349ac3 [PATCH] fix zcip: struct ether_arp missing, use FreeBSD's
-0e3aa64 [PATCH] nandwrite/nanddump: add missing headers
-8702034 [PATCH] loadfont/setfont/conspy: add missing header
-fb897ee [PATCH] fix ether-wake, avoid ether_hostton and include if_ether
-991171e [PATCH] fix arping: include if_arp.h (for arphdr) and add mempcpy.c
-eae6954 [PATCH] fix udhcpd and nameif, add ether_ntoa_r and ether_aton_r from glibc
-4e75aac [PATCH] ifplugd: add missing header
-7cb0938 [PATCH] add include/mtd/ubi-user.h from linux kernel
-9af22d8 [PATCH] add include/linux/watchdog.h from linux kernel
-b13fc67 [PATCH] ifenslave: add missing headers
-a986229 [PATCH] ifconfig_slip: add missing headers
-67697ca [PATCH] eject: add missing headers
-a9659c7 [PATCH] rfkill: add missing header
-a9320db [PATCH] telnet/telnetd: add missing header
-fa4d897 [PATCH] Fix df missing header on API <21
-1f165aa [PATCH] Fix mntent patch linking error "multiple definition of `getmntent'"
-297213c [PATCH] android: fix 'mount', 'umount', 'fsck', 'df'
+32b9c61 Preserve datatype markers when emitting dts format
+6dcb8ba libfdt: Add helpers for accessing unaligned words
 42607f2 tests: Fix incorrect check name 'prop_name_chars'
 9d78c33 tests: fix grep for checks error messages
 b770f3d pylibfdt: Support setting the name of a node
@@ -157,14 +118,6 @@ d5db538 libfdt: Safer access to memory reservations
 eb890c0 libfdt: Make fdt_check_header() more thorough
 899d6fa libfdt: Improve sequential write state checking
 04b5b40 libfdt: Clean up header checking functions
-44d3efe Preserve datatype information when parsing dts
-f0be81b Make Property a subclass of bytearray
-24b1f3f pylibfdt: Add a method to access the device tree directly
-1466e0b Merge pull request #543 from nrgiii/aix_32bit_fuzzer
-628c1fb Merge branch 'master' of https://github.com/nrgiii/lz4 into aix_32bit_fuzzer
-ebe7e35 Fix AIX 32 bit build problem of fuzzer.c
-ef4f1e3 Merge pull request #542 from wbx-github/dev
-6a21356 Add --no-strip-path command line option (#326)
 ead8c03 Several adjustments
 8a35ea2 Fix force denying on exit
 29d5740 Update daemon

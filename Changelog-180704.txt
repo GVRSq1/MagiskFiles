@@ -1,0 +1,16 @@
+update Ukrainian strings
+Update RU strings
+ Updated german full/res strings
+Update zh-rCN translation
+add romanian translation for stub
+full: Update Indonesian translations
+Update Strings.xml Full Version
+Update Bulgarian translation
+Don't popup changelogs on launch
+Hide install to second slot option until Magisk properly supports it
+Small optimization to UpdateRepos
+Get rid of error logs
+Rewrite Magisk log fragment
+Move shell code into scripts
+Preserve datatype markers when emitting dts format
+libfdt: Add helpers for accessing unaligned words

@@ -1,3 +1,24 @@
+375cd0e Bump Magisk Manager version
+3934821 Don't clean output
+c3b473e Fix get_outfd in embedded mode
+7ed2c07 Support deodexed ROM on Oreo
+1283167 Maintain our own set of loop devices
+23c2e22 Update image functions
+f44b2db Rename log_monitor -> log_daemon
+46ee2c3 Improve handshake between the 2 daemons
+5d5ec08 Test the log buffers before running command
+c3a6179 Update scripts
+ef175e3 Open log file in append mode
+4de51d9 Tweak info when installing
+e7a2144 Optimize magiskhide to work with the log daemon
+52a2c69 Optimize log daemon
+70243d7 Add fallback to parse block from fstabs
+b5b8c4b First find blocks by-name, then fallback to parsing sysfs
+6c4d81b Invincible mode implemented in magisklogd
+c88dc87 Single log file
+a8030c3 Separate logging into its own daemon
+7243b9e Improve log_monitor implementation
+d149af9 Fix bootloop when upgrading from older Magisk
 c0ac2d5 Update build.py to build Magisk Manager
 528634d Remove unused code
 3283439 New uninstaller
@@ -40,6 +61,20 @@ f6ee252 magiskboot: Check dtb header content to avoid false positives
 90d218e Update SafetyNet extension implementation
 b0a5dbb Push to SDK 28
 0abdfda Fix busybox issues
+b885ccb Bump version
+da6f1d0 Update to values.lt
+4c0d435 Little adjustment for French translation :)
+0e717a2 Fix additional setup
+cada862 Fix install script to copy folders
+682c6d4 Prettier notification text
+d0a253c Switch to discussion thread
+c0e2b30 Add Trad. Chinese stub translations
+e7dc14b Update French translation
+0da9146 Cleanup resources and add Trad. Chinese translation
+ad05a33 Show release notes and changelog in MarkDownWindow
+8224e03 added latest strings
+03c04c2 Prevent duplicate policy of same package name
+2e091b0 Sort hidden apps to the top
 6029649 update Ukrainian strings
 20c20f8 Update RU strings
 f1d642a  Updated german full/res strings
@@ -100,24 +135,8 @@ b770f3d pylibfdt: Support setting the name of a node
 29bb05a pylibfdt: Add support for the rest of the header functions
 582a715 pylibfdt: Add support for fdt_next_node()
 f0f8c91 pylibfdt: Reorder functions to match libfdt.h
-64a69d1 pylibfdt: Return string instead of bytearray from getprop()
-4d09a83 fdtput: Add documentation
-e617cbe fdtget: Add documentation
-180a939 Use <inttypes.h> format specifiers in a bunch of places we should
-b9af3b3 scripts/dtc: Fixed format mismatch in fprintf
-4b8fcc3 libfdt: Add fdt_check_full() function
-c14223f tests: Use valgrind client requests for better checking
-5b67d2b tests: Better handling of valgrind errors saving blobs
-e2556aa tests: Remove unused #define
-fb9c6ab Use size_t for blob lengths in utilfdt_read*
-0112fda libfdt: Add fdt_header_size()
-6473a21 Consolidate utilfdt_read_len() variants
-d5db538 libfdt: Safer access to memory reservations
-719d582 libfdt: Propagate name errors in fdt_getprop_by_offset()
-70166d6 libfdt: Safer access to strings section
-eb890c0 libfdt: Make fdt_check_header() more thorough
-899d6fa libfdt: Improve sequential write state checking
-04b5b40 libfdt: Clean up header checking functions
+52a6a7b Support deodexed ROM on Oreo
+69b226b SIGPIPE is handled in main daemon
 ead8c03 Several adjustments
 8a35ea2 Fix force denying on exit
 29d5740 Update daemon

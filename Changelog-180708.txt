@@ -1,0 +1,37 @@
+Bump Magisk Manager version
+Don't clean output
+Fix get_outfd in embedded mode
+Support deodexed ROM on Oreo
+Maintain our own set of loop devices
+Update image functions
+Rename log_monitor -> log_daemon
+Improve handshake between the 2 daemons
+Test the log buffers before running command
+Update scripts
+Open log file in append mode
+Tweak info when installing
+Optimize magiskhide to work with the log daemon
+Optimize log daemon
+Add fallback to parse block from fstabs
+First find blocks by-name, then fallback to parsing sysfs
+Invincible mode implemented in magisklogd
+Single log file
+Separate logging into its own daemon
+Improve log_monitor implementation
+Fix bootloop when upgrading from older Magisk
+Bump version
+Update to values.lt
+Little adjustment for French translation :)
+Fix additional setup
+Fix install script to copy folders
+Prettier notification text
+Switch to discussion thread
+Add Trad. Chinese stub translations
+Update French translation
+Cleanup resources and add Trad. Chinese translation
+Show release notes and changelog in MarkDownWindow
+added latest strings
+Prevent duplicate policy of same package name
+Sort hidden apps to the top
+Support deodexed ROM on Oreo
+SIGPIPE is handled in main daemon

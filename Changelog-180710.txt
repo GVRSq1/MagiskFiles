@@ -1,0 +1,4 @@
+Small adjustments to prevent seccomp errors
+tests: Improve fdt_resize() tests
+libfdt: Add necessary header padding in fdt_create()
+libfdt: Copy the struct region in fdt_resize()

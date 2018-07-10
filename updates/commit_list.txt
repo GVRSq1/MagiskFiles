@@ -1,3 +1,4 @@
+ef62272 Small adjustments to prevent seccomp errors
 375cd0e Bump Magisk Manager version
 3934821 Don't clean output
 c3b473e Fix get_outfd in embedded mode
@@ -55,12 +56,6 @@ f2064a8 Move database logic outside of MagiskSU
 3f83919 Fix bootloops when flashing Magisk after data wipe on FBE devices
 72a5b83 Support patching dtb placed in extra section (S9/S9+)
 d2e8ecc Fix error return code when patching dtb
-30eb407 Update binary dump method
-9929e7d Remove update file on boot
-f6ee252 magiskboot: Check dtb header content to avoid false positives
-90d218e Update SafetyNet extension implementation
-b0a5dbb Push to SDK 28
-0abdfda Fix busybox issues
 b885ccb Bump version
 da6f1d0 Update to values.lt
 4c0d435 Little adjustment for French translation :)
@@ -106,19 +101,11 @@ d1f301e Improve stub manager
 1e812c4 Finally fix magisk icons
 a949641 Preserve hidden when upgrade
 c231e88 Small tweak in setting up magisk DB
-79c7150 Add NoUIActivity
-5dab580 Move translation to correct location
-499a157 Update snet extension
-c5a7ab2 Move runWithPermission method
-3dd5a6f Create strings.xml
-7be26a0  Added german strings for stub
-c183fdd add zh-rCN translation
-baa4394 Minor French translation update
-4dbcd54 Initial stub app translation to Indonesian
-11062f2 Create strings.xml
-a046608 New permissions targeting SDK 28
 47a1fdd Add generated files for ndk-build
 70a51fd [PATCH] support ndk-build
+9b0e4fe tests: Improve fdt_resize() tests
+1087504 libfdt: Add necessary header padding in fdt_create()
+c72fa77 libfdt: Copy the struct region in fdt_resize()
 32b9c61 Preserve datatype markers when emitting dts format
 6dcb8ba libfdt: Add helpers for accessing unaligned words
 42607f2 tests: Fix incorrect check name 'prop_name_chars'
@@ -130,11 +117,6 @@ b770f3d pylibfdt: Support setting the name of a node
 49d32ce pylibfdt: Use an unsigned type for fdt32_t
 481246a pylibfdt: Avoid accessing the internal _fdt member in tests
 9aafa33 pylibfdt: Add functions to update properties
-5a59867 pylibfdt: Support device-tree creation/expansion
-483e170 pylibfdt: Add support for reading the memory reserve map
-29bb05a pylibfdt: Add support for the rest of the header functions
-582a715 pylibfdt: Add support for fdt_next_node()
-f0f8c91 pylibfdt: Reorder functions to match libfdt.h
 52a6a7b Support deodexed ROM on Oreo
 69b226b SIGPIPE is handled in main daemon
 ead8c03 Several adjustments

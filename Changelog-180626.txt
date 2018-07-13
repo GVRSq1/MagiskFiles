@@ -1,7 +1,0 @@
-Revert "Remove invincible mode"
-fix a bug when $ABILONG is arm64-v8a
-Update BusyBox
-More fixes for non-root devices
-Speed up startup time
-Fix non-root boot patching
-Revert "Update daemon"

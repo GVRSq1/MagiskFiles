@@ -1,3 +1,10 @@
+bf9927c Sync source with AOSP
+f339a08 Let Magisk compile against SDK 16
+1affb91 Support compiling against lower SDK
+7779c3e Update Magisk Manager
+0117274 Better Windows support
+e50192a Use standard ANDROID_NDK_HOME instead of ANDROID_NDK
+c6fc0e5 Support hardlink based proc ns
 ef62272 Small adjustments to prevent seccomp errors
 375cd0e Bump Magisk Manager version
 3934821 Don't clean output
@@ -48,9 +55,6 @@ d93fc67 Improve detecting device status
 9b41976 Preserve last log
 d08fd05 Remove invincible mode
 a6958ac Fix adbd on GSIs
-d7d76f5 Install stub APK when needed
-970a2e8 Bundle in stub APK into magiskinit
-cabaae8 MagiskSU improvements
 49ba7ad update Ukrainian language
 6ad33d6 Bump to 5.8.1
 68c448b Let ShellInitializer run in BusyBox environment
@@ -94,5 +98,3 @@ c8f65fc Fix selinux error while installing Magisk on some devices
 a4da7b3 Create Strings.xml ver. Stub
 e4ee9e9 Create Stub for Italian (it)
 77430a2 Support new util_functions.sh
-e6c1dd5 Re-implement duplicate Magisk Manager logic
-d1f301e Improve stub manager

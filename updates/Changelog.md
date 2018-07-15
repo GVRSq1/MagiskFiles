@@ -1,9 +1,13 @@
-## unofficial (20180713)~(NDK r10e) 
+## unofficial (20180715)~(NDK r10e) 
 
 ### Magisk
-- no changes
+- Sync source with AOSP
+- Let Magisk compile against SDK 16
+- Support compiling against lower SDK
+- Update Magisk Manager
+- Better Windows support
+- Use standard ANDROID_NDK_HOME instead of ANDROID_NDK
+- Support hardlink based proc ns
 
 ### MagiskManager
-- update Ukrainian language
-- Bump to 5.8.1
-- Let ShellInitializer run in BusyBox environment
+- no changes

@@ -1,3 +1,5 @@
+c2e673f Less boilerplate in build script
+2bde8a1 EMUI's logcat will change output file's permission and break ADBD
 bf9927c Sync source with AOSP
 f339a08 Let Magisk compile against SDK 16
 1affb91 Support compiling against lower SDK

@@ -1,13 +1,8 @@
-## unofficial (20180715)~(NDK r10e) 
+## unofficial (20180716)~(NDK r10e) 
 
 ### Magisk
-- Sync source with AOSP
-- Let Magisk compile against SDK 16
-- Support compiling against lower SDK
-- Update Magisk Manager
-- Better Windows support
-- Use standard ANDROID_NDK_HOME instead of ANDROID_NDK
-- Support hardlink based proc ns
+- Less boilerplate in build script
+- EMUI's logcat will change output file's permission and break ADBD
 
 ### MagiskManager
 - no changes

@@ -1,3 +1,5 @@
+3c1aca1 Wrap accept4 since some device does not have it
+18d0fd9 MagiskInit optimizations
 c2e673f Less boilerplate in build script
 2bde8a1 EMUI's logcat will change output file's permission and break ADBD
 bf9927c Sync source with AOSP
@@ -52,11 +54,6 @@ bfddef2 Bump Magisk Manager
 44395e8 Fix root loss issue when MagiskHide is enabled
 835ece5 Update default flag logic, fix S9/S9+ DTB patches
 d93fc67 Improve detecting device status
-838f3cc Simplify hiding conditions
-4d58413 Change to applet name to prevent showing magisk.bin
-9b41976 Preserve last log
-d08fd05 Remove invincible mode
-a6958ac Fix adbd on GSIs
 49ba7ad update Ukrainian language
 6ad33d6 Bump to 5.8.1
 68c448b Let ShellInitializer run in BusyBox environment

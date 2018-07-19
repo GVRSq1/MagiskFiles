@@ -1,73 +1,63 @@
+153c7fd Script update, artificially bump version
+90379ee Detect ramdisk partition
+3ae959a Do not early mount on symlinks on half Treble devices
+c8cc652 Prevent build fail when APK is first built without out folder
+4b6285e Bump Magisk Manager to v5.8.2
+013de7b Switch channel and snet APK links
+e11e88a Huawei hardcodes the slot suffix, don't append the suffix twice
+7cec8ba Merge magiskpolicy into Magisk main repo
+e987db9 Move magiskpolicy sources to native/jni/magiskpolicy
+c603b90 Remove magiskpolicy as submodule
+492d6df Merge MagiskSU into Magisk main repo
+a3e0f2d Remove MagiskSU as submodule
+cf211e2 Move MagiskSU sources to native/jni/su
+c5aaaa7 Merge Magisk Manager into Magisk main repo
+f86d077 Remove Magisk Manager as submodule
+f807682 Move Magisk Manager files into subfolder
+201d8a9 Prevent crashing on broken module.prop
+d08f326 Log fatal errors in debug mode only
+8dc9d3b Dump binaries to header at build, not at request
+adf95ce Read fstab from device tree
 3c1aca1 Wrap accept4 since some device does not have it
 18d0fd9 MagiskInit optimizations
 c2e673f Less boilerplate in build script
 2bde8a1 EMUI's logcat will change output file's permission and break ADBD
 bf9927c Sync source with AOSP
 f339a08 Let Magisk compile against SDK 16
+6ccc5f3 Use xwrap functions
 1affb91 Support compiling against lower SDK
 7779c3e Update Magisk Manager
+49ba7ad update Ukrainian language
+6ad33d6 Bump to 5.8.1
 0117274 Better Windows support
 e50192a Use standard ANDROID_NDK_HOME instead of ANDROID_NDK
 c6fc0e5 Support hardlink based proc ns
+68c448b Let ShellInitializer run in BusyBox environment
 ef62272 Small adjustments to prevent seccomp errors
 375cd0e Bump Magisk Manager version
+b885ccb Bump version
+da6f1d0 Update to values.lt
 3934821 Don't clean output
 c3b473e Fix get_outfd in embedded mode
+4c0d435 Little adjustment for French translation :)
 7ed2c07 Support deodexed ROM on Oreo
+52a6a7b Support deodexed ROM on Oreo
 1283167 Maintain our own set of loop devices
 23c2e22 Update image functions
 f44b2db Rename log_monitor -> log_daemon
 46ee2c3 Improve handshake between the 2 daemons
 5d5ec08 Test the log buffers before running command
-c3a6179 Update scripts
-ef175e3 Open log file in append mode
-4de51d9 Tweak info when installing
-e7a2144 Optimize magiskhide to work with the log daemon
-52a2c69 Optimize log daemon
-70243d7 Add fallback to parse block from fstabs
-b5b8c4b First find blocks by-name, then fallback to parsing sysfs
-6c4d81b Invincible mode implemented in magisklogd
-c88dc87 Single log file
-a8030c3 Separate logging into its own daemon
-7243b9e Improve log_monitor implementation
-d149af9 Fix bootloop when upgrading from older Magisk
-c0ac2d5 Update build.py to build Magisk Manager
-528634d Remove unused code
-3283439 New uninstaller
-c8216f9 Fix uninstaller
-e579f31 Fix MagiskSU force denying root access
-d1a7372 fix a bug when $ABILONG is arm64-v8a
-e837bdc Update BusyBox
-7265450 Precise free space calculation for magisk.img
-058dbc9 Add more indentation
-daf9b01 More elaborate bb_setup
-14eebd5 Source addon.d script from data
-9a8eeac Fix output of addon.d, and add support for addon.d-v2
-45b0bf5 Remove unnecessary variable
-88db822 Get device blocks with sysfs
-fbf3588 fix typos
-a82ef6b MagiskHide: add ro.boot.vbmeta.device_state=locked
-312466a Prevent setting zero over than bound
-c0ca99f Make sure APK exists before signing AVB 1.0
-196f15d Fix survival script for AVB 1.0 signed boot image
-bfddef2 Bump Magisk Manager
-44395e8 Fix root loss issue when MagiskHide is enabled
-835ece5 Update default flag logic, fix S9/S9+ DTB patches
-d93fc67 Improve detecting device status
-49ba7ad update Ukrainian language
-6ad33d6 Bump to 5.8.1
-68c448b Let ShellInitializer run in BusyBox environment
-b885ccb Bump version
-da6f1d0 Update to values.lt
-4c0d435 Little adjustment for French translation :)
 0e717a2 Fix additional setup
 cada862 Fix install script to copy folders
+c3a6179 Update scripts
 682c6d4 Prettier notification text
 d0a253c Switch to discussion thread
 c0e2b30 Add Trad. Chinese stub translations
 e7dc14b Update French translation
 0da9146 Cleanup resources and add Trad. Chinese translation
 ad05a33 Show release notes and changelog in MarkDownWindow
+ef175e3 Open log file in append mode
+4de51d9 Tweak info when installing
 8224e03 added latest strings
 03c04c2 Prevent duplicate policy of same package name
 2e091b0 Sort hidden apps to the top
@@ -85,15 +75,47 @@ c54c5a9 full: Update Indonesian translations
 c78896a Get rid of error logs
 316ec98 Rewrite Magisk log fragment
 cf58545 Move shell code into scripts
+e7a2144 Optimize magiskhide to work with the log daemon
+52a2c69 Optimize log daemon
+70243d7 Add fallback to parse block from fstabs
+b5b8c4b First find blocks by-name, then fallback to parsing sysfs
+6c4d81b Invincible mode implemented in magisklogd
+513d732 SIGPIPE is handled in main daemon
+c88dc87 Single log file
+a8030c3 Separate logging into its own daemon
+7243b9e Improve log_monitor implementation
+d149af9 Fix bootloop when upgrading from older Magisk
+c0ac2d5 Update build.py to build Magisk Manager
+528634d Remove unused code
+3283439 New uninstaller
 e86015b New uninstallation method
 c8f65fc Fix selinux error while installing Magisk on some devices
+c8216f9 Fix uninstaller
+e579f31 Fix MagiskSU force denying root access
+2c40013 Several adjustments
+caa3947 Fix force denying on exit
 7684602 More fixes for non-root devices
+d1a7372 fix a bug when $ABILONG is arm64-v8a
 4601989 Speed up startup time
 23f697d Fix non-root boot patching
+e837bdc Update BusyBox
+7265450 Precise free space calculation for magisk.img
+058dbc9 Add more indentation
+daf9b01 More elaborate bb_setup
+14eebd5 Source addon.d script from data
+9a8eeac Fix output of addon.d, and add support for addon.d-v2
+45b0bf5 Remove unnecessary variable
+88db822 Get device blocks with sysfs
+fbf3588 fix typos
+a82ef6b MagiskHide: add ro.boot.vbmeta.device_state=locked
+312466a Prevent setting zero over than bound
+c0ca99f Make sure APK exists before signing AVB 1.0
+196f15d Fix survival script for AVB 1.0 signed boot image
+bfddef2 Bump Magisk Manager
+44395e8 Fix root loss issue when MagiskHide is enabled
 4ff39f8 Update to libsu 1.2.0
 1df4100 Update strings.xml
 1f39ee4 Create strings.xml
 42d8b1e Update French translation
 a4da7b3 Create Strings.xml ver. Stub
 e4ee9e9 Create Stub for Italian (it)
-77430a2 Support new util_functions.sh

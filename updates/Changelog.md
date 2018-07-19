@@ -1,6 +1,9 @@
 ## unofficial (20180719)~(NDK r10e) 
 
 ### Magisk
+- Script update, artificially bump version
+- Detect ramdisk partition
+- Do not early mount on symlinks on half Treble devices
 - Prevent build fail when APK is first built without out folder
 - Bump Magisk Manager to v5.8.2
 - Switch channel and snet APK links

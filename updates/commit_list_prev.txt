@@ -1,3 +1,8 @@
+91818cf Support compiling split cils via magiskpolicy CLI
+6263d68 Migrate to JobIntentService to prevent boot notification
+07140d3 Bring back installing to second slot after OTA on A/B devices
+4ffc388 Allow bootctl to run
+0ef026c Remove system root when running addon.d
 153c7fd Script update, artificially bump version
 90379ee Detect ramdisk partition
 3ae959a Do not early mount on symlinks on half Treble devices
@@ -104,18 +109,3 @@ e837bdc Update BusyBox
 daf9b01 More elaborate bb_setup
 14eebd5 Source addon.d script from data
 9a8eeac Fix output of addon.d, and add support for addon.d-v2
-45b0bf5 Remove unnecessary variable
-88db822 Get device blocks with sysfs
-fbf3588 fix typos
-a82ef6b MagiskHide: add ro.boot.vbmeta.device_state=locked
-312466a Prevent setting zero over than bound
-c0ca99f Make sure APK exists before signing AVB 1.0
-196f15d Fix survival script for AVB 1.0 signed boot image
-bfddef2 Bump Magisk Manager
-44395e8 Fix root loss issue when MagiskHide is enabled
-4ff39f8 Update to libsu 1.2.0
-1df4100 Update strings.xml
-1f39ee4 Create strings.xml
-42d8b1e Update French translation
-a4da7b3 Create Strings.xml ver. Stub
-e4ee9e9 Create Stub for Italian (it)

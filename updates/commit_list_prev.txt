@@ -1,3 +1,9 @@
+27851bd Update README.md
+3fdeb40 Update SNET extension dialog interface
+546c7ce Fix #411
+473902f Proper detect MagiskHide status
+41c0721 Use internal thread pool for update repos
+413d4ba Strip logging code with Proguard
 c5d67eb Update libsu to 2.0.0
 91818cf Support compiling split cils via magiskpolicy CLI
 6263d68 Migrate to JobIntentService to prevent boot notification

@@ -1,4 +1,9 @@
-## unofficial (20180727)~(NDK r10e) 
+## unofficial (20180728)~(NDK r10e) 
 
 ### Magisk
-- Update libsu to 2.0.0
+- Update README.md
+- Update SNET extension dialog interface
+- Fix #411
+- Proper detect MagiskHide status
+- Use internal thread pool for update repos
+- Strip logging code with Proguard

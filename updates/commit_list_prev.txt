@@ -1,3 +1,6 @@
+89861ec Install to Second Slot -> Install to Inactive slot
+b8eaff6 Shrink snet APK, and prevent crashing
+a747fdd Organize dialog code
 27851bd Update README.md
 3fdeb40 Update SNET extension dialog interface
 546c7ce Fix #411

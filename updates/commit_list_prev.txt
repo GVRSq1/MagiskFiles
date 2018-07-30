@@ -1,3 +1,13 @@
+5cb3e59 Update policy list when resuming the superuser fragment.
+e0cd224 Update Strings.xml Spanish
+de225ac Estonian update
+5807808 Update Italian Translation
+362877d Update strings.xml
+88b8dd0 Update French translation
+1552f32 Keep the methods in SN check interface
+50b73a6 Clear up more component in stub APK
+53e51f1 Allow incomplete update JSONs
+40b63bf Don't use DownloadManager for Magisk
 89861ec Install to Second Slot -> Install to Inactive slot
 b8eaff6 Shrink snet APK, and prevent crashing
 a747fdd Organize dialog code

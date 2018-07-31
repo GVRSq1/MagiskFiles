@@ -1,3 +1,6 @@
+914b7ee Start moving things outside of top Application class
+e39f83e Do not unmount database when cleaning up repackaged manager
+52fe0c6 Fix restore manager on Android P
 5cb3e59 Update policy list when resuming the superuser fragment.
 e0cd224 Update Strings.xml Spanish
 de225ac Estonian update
@@ -109,4 +112,3 @@ b5b8c4b First find blocks by-name, then fallback to parsing sysfs
 c88dc87 Single log file
 a8030c3 Separate logging into its own daemon
 7243b9e Improve log_monitor implementation
-d149af9 Fix bootloop when upgrading from older Magisk

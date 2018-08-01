@@ -1,6 +1,18 @@
-## unofficial (20180731)~(NDK r10e) 
+## 16.7-unofficial (2018080200)~(NDK r10e) 
 
 ### Magisk
-- Start moving things outside of top Application class
-- Do not unmount database when cleaning up repackaged manager
-- Fix restore manager on Android P
+- Delay full sepolicy patch loading time
+- Request write external storage permission
+- Simplify repo update logic
+- Show proper time of repo updates
+- Simplify asynchronous tasks
+- Fix crash
+- Rename base activity and fragments
+- Remove boilderplate
+- Improve locale settings
+- Some cleanups
+- Rewrite Topics
+- Move Const to upper package
+- Rename and move methods
+- Create LocaleManager
+- More moving

@@ -1,3 +1,18 @@
+d9564bd Delay full sepolicy patch loading time
+35f1c39 Request write external storage permission
+6acb950 Simplify repo update logic
+27e0d16 Show proper time of repo updates
+9ac71ff Simplify asynchronous tasks
+075737a Fix crash
+6d0e4a6 Rename base activity and fragments
+a254476 Remove boilderplate
+8574a14 Improve locale settings
+e90c555 Some cleanups
+863b9a4 Rewrite Topics
+23c7bbc Move Const to upper package
+f900189 Rename and move methods
+7c74be2 Create LocaleManager
+70dd2d4 More moving
 914b7ee Start moving things outside of top Application class
 e39f83e Do not unmount database when cleaning up repackaged manager
 52fe0c6 Fix restore manager on Android P
@@ -106,9 +121,3 @@ cf58545 Move shell code into scripts
 e7a2144 Optimize magiskhide to work with the log daemon
 52a2c69 Optimize log daemon
 70243d7 Add fallback to parse block from fstabs
-b5b8c4b First find blocks by-name, then fallback to parsing sysfs
-6c4d81b Invincible mode implemented in magisklogd
-513d732 SIGPIPE is handled in main daemon
-c88dc87 Single log file
-a8030c3 Separate logging into its own daemon
-7243b9e Improve log_monitor implementation

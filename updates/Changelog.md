@@ -1,18 +1,13 @@
-## 16.7-unofficial (2018080200)~(NDK r10e) 
+## unofficial (2018080310)~(NDK r17b) 
 
 ### Magisk
-- Delay full sepolicy patch loading time
-- Request write external storage permission
-- Simplify repo update logic
-- Show proper time of repo updates
-- Simplify asynchronous tasks
-- Fix crash
-- Rename base activity and fragments
-- Remove boilderplate
-- Improve locale settings
-- Some cleanups
-- Rewrite Topics
-- Move Const to upper package
-- Rename and move methods
-- Create LocaleManager
-- More moving
+- Update Trad. Chinese translations
+- Add warning before installing to inactive slot
+- Update Bulgarian
+- Update zh-rCN translation
+- Respect filesystem type when mounting mirrors
+- Use own busybox for get_outfd
+- Stop use clashing names
+- Stop altering PATH to mirror
+- Try logging a little harder
+- Make root shell always use dev_pts

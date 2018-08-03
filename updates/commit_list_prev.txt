@@ -1,3 +1,13 @@
+9dd467a Update Trad. Chinese translations
+4c14df6 Add warning before installing to inactive slot
+20e0fe3 Update Bulgarian
+6a00513 Update zh-rCN translation
+82e8375 Respect filesystem type when mounting mirrors
+bb25edc Use own busybox for get_outfd
+169c0fe Stop use clashing names
+cd6918e Stop altering PATH to mirror
+5be035f Try logging a little harder
+f1edc84 Make root shell always use dev_pts
 d9564bd Delay full sepolicy patch loading time
 35f1c39 Request write external storage permission
 6acb950 Simplify repo update logic
@@ -118,6 +128,3 @@ c54c5a9 full: Update Indonesian translations
 c78896a Get rid of error logs
 316ec98 Rewrite Magisk log fragment
 cf58545 Move shell code into scripts
-e7a2144 Optimize magiskhide to work with the log daemon
-52a2c69 Optimize log daemon
-70243d7 Add fallback to parse block from fstabs

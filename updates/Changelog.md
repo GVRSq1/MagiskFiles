@@ -1,13 +1,16 @@
-## unofficial (2018080310)~(NDK r17b) 
+## unofficial (2018080319)~(NDK r17b) 
 
 ### Magisk
-- Update Trad. Chinese translations
-- Add warning before installing to inactive slot
-- Update Bulgarian
 - Update zh-rCN translation
-- Respect filesystem type when mounting mirrors
-- Use own busybox for get_outfd
-- Stop use clashing names
-- Stop altering PATH to mirror
-- Try logging a little harder
-- Make root shell always use dev_pts
+- Updating French translation
+- Update RU strings pt.2
+- Update Indonesian translations
+- Update Bulgarian
+- Update UK strings
+- Update RU strings
+- Proper callback to trigger UI update
+- Better download UI
+- Fix install failure
+- Proper addon.d-v2 support
+- Use buffer on stack
+- Use mirror in post-fs-data scripts

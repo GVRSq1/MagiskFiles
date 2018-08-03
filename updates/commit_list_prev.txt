@@ -1,3 +1,16 @@
+525484e Update zh-rCN translation
+65a4e69 Updating French translation
+e973f8b Update RU strings pt.2
+9246667 Update Indonesian translations
+6d61106 Update Bulgarian
+ac13749 Update UK strings
+7ec1a9a Update RU strings
+cf17e21 Proper callback to trigger UI update
+0e0240c Better download UI
+d1b290b Fix install failure
+a636968 Proper addon.d-v2 support
+46aad00 Use buffer on stack
+252afe8 Use mirror in post-fs-data scripts
 9dd467a Update Trad. Chinese translations
 4c14df6 Add warning before installing to inactive slot
 20e0fe3 Update Bulgarian
@@ -109,22 +122,3 @@ c0e2b30 Add Trad. Chinese stub translations
 e7dc14b Update French translation
 0da9146 Cleanup resources and add Trad. Chinese translation
 ad05a33 Show release notes and changelog in MarkDownWindow
-ef175e3 Open log file in append mode
-4de51d9 Tweak info when installing
-8224e03 added latest strings
-03c04c2 Prevent duplicate policy of same package name
-2e091b0 Sort hidden apps to the top
-6029649 update Ukrainian strings
-20c20f8 Update RU strings
-f1d642a  Updated german full/res strings
-e0e5ea1 Update zh-rCN translation
-91a0ba7 add romanian translation for stub
-c54c5a9 full: Update Indonesian translations
-532b8c5 Update Strings.xml Full Version
-5ac8789 Update Bulgarian translation
-2d905ce Don't popup changelogs on launch
-831112a Hide install to second slot option until Magisk properly supports it
-153d0f5 Small optimization to UpdateRepos
-c78896a Get rid of error logs
-316ec98 Rewrite Magisk log fragment
-cf58545 Move shell code into scripts

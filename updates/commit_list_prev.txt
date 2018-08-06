@@ -1,3 +1,7 @@
+9c17b8a Better subprocess support
+3084873 Fix missing RU translate
+32809e5 Sign release zips with release-key.jks
+9f05b18 Verify existing file checksum to prevent needless downloads
 525484e Update zh-rCN translation
 65a4e69 Updating French translation
 e973f8b Update RU strings pt.2
@@ -105,20 +109,3 @@ b885ccb Bump version
 da6f1d0 Update to values.lt
 3934821 Don't clean output
 c3b473e Fix get_outfd in embedded mode
-4c0d435 Little adjustment for French translation :)
-7ed2c07 Support deodexed ROM on Oreo
-52a6a7b Support deodexed ROM on Oreo
-1283167 Maintain our own set of loop devices
-23c2e22 Update image functions
-f44b2db Rename log_monitor -> log_daemon
-46ee2c3 Improve handshake between the 2 daemons
-5d5ec08 Test the log buffers before running command
-0e717a2 Fix additional setup
-cada862 Fix install script to copy folders
-c3a6179 Update scripts
-682c6d4 Prettier notification text
-d0a253c Switch to discussion thread
-c0e2b30 Add Trad. Chinese stub translations
-e7dc14b Update French translation
-0da9146 Cleanup resources and add Trad. Chinese translation
-ad05a33 Show release notes and changelog in MarkDownWindow

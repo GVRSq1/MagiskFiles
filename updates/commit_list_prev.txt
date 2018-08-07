@@ -1,3 +1,12 @@
+7fb4777 Improve update channel settings
+c38533e Prevent problematic modules causing device stuck in bootloop
+51ba99d Update Strings Spanish
+9159f86 Improvements to system_root devices booting as recovery
+e139f4f Small build script adjustments
+2fbfeac Show toast when intent to open a link is not resolved
+ebb7a9f Open links in a new task
+9e72317 Ensure intent are resolved when opening link
+d764c20 Fix crash on boot on Android pre-O
 9c17b8a Better subprocess support
 3084873 Fix missing RU translate
 32809e5 Sign release zips with release-key.jks
@@ -104,8 +113,3 @@ e50192a Use standard ANDROID_NDK_HOME instead of ANDROID_NDK
 c6fc0e5 Support hardlink based proc ns
 68c448b Let ShellInitializer run in BusyBox environment
 ef62272 Small adjustments to prevent seccomp errors
-375cd0e Bump Magisk Manager version
-b885ccb Bump version
-da6f1d0 Update to values.lt
-3934821 Don't clean output
-c3b473e Fix get_outfd in embedded mode

@@ -1,3 +1,10 @@
+bdff976 Move remount,ro back to post-fs-data mode
+c61df75 Update RU strings
+a74bf2c Update zh-rCN translation
+ada0f93 Apply all sepolicy patches pre-init
+ff36f2b Add 1 more byte to mark
+5164cfd Move butterknife config to full only
+5fa0215 Update to libsu 2.0.1
 7b5d79d Kill all processes using the same UID of the target
 3e3f385 Only use required memory size
 5109b9a Allow modules be managed in core only mode, and add notice in UI
@@ -115,4 +122,3 @@ f339a08 Let Magisk compile against SDK 16
 e50192a Use standard ANDROID_NDK_HOME instead of ANDROID_NDK
 c6fc0e5 Support hardlink based proc ns
 68c448b Let ShellInitializer run in BusyBox environment
-ef62272 Small adjustments to prevent seccomp errors

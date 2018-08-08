@@ -1,6 +1,10 @@
-## unofficial (2018080810)~(NDK r10e) 
+## unofficial (2018080822)~(NDK r10e) 
 
 ### Magisk
-- Kill all processes using the same UID of the target
-- Only use required memory size
-- Allow modules be managed in core only mode, and add notice in UI
+- Move remount,ro back to post-fs-data mode
+- Update RU strings
+- Update zh-rCN translation
+- Apply all sepolicy patches pre-init
+- Add 1 more byte to mark
+- Move butterknife config to full only
+- Update to libsu 2.0.1

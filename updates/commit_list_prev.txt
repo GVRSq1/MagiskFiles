@@ -1,3 +1,6 @@
+7b5d79d Kill all processes using the same UID of the target
+3e3f385 Only use required memory size
+5109b9a Allow modules be managed in core only mode, and add notice in UI
 7fb4777 Improve update channel settings
 c38533e Prevent problematic modules causing device stuck in bootloop
 51ba99d Update Strings Spanish

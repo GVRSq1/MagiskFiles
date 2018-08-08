@@ -1,12 +1,6 @@
-## unofficial (2018080710)~(NDK r10e) 
+## unofficial (2018080810)~(NDK r10e) 
 
 ### Magisk
-- Improve update channel settings
-- Prevent problematic modules causing device stuck in bootloop
-- Update Strings Spanish
-- Improvements to system_root devices booting as recovery
-- Small build script adjustments
-- Show toast when intent to open a link is not resolved
-- Open links in a new task
-- Ensure intent are resolved when opening link
-- Fix crash on boot on Android pre-O
+- Kill all processes using the same UID of the target
+- Only use required memory size
+- Allow modules be managed in core only mode, and add notice in UI

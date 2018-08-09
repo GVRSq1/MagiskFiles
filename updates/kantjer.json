@@ -1,17 +1,17 @@
 {
   "app": {
     "version": "5.8.3-unofficial",
-    "versionCode": "2018080822",
-    "link": "https://github.com/kantjer/MagiskFiles/raw/master/MagiskManager-2018080822.apk",
-    "note": "https://raw.githubusercontent.com/kantjer/MagiskFiles/master/Changelog-2018080822.md"
+    "versionCode": "2018080910",
+    "link": "https://github.com/kantjer/MagiskFiles/raw/master/MagiskManager-2018080910.apk",
+    "note": "https://raw.githubusercontent.com/kantjer/MagiskFiles/master/Changelog-2018080910.md"
   },
   "magisk": {
     "version": "16.7-unofficial",
-    "versionCode": "2018080822",
-    "link": "https://github.com/kantjer/MagiskFiles/raw/master/Magisk-2018080822.zip",
+    "versionCode": "2018080910",
+    "link": "https://github.com/kantjer/MagiskFiles/raw/master/Magisk-2018080910.zip",
     "note": "https://raw.githubusercontent.com/kantjer/MagiskFiles/master/updates/Changelog.md"
   },
     "uninstaller": {
-    "link": "https://github.com/kantjer/MagiskFiles/raw/master/Magisk-uninstaller-2018080822.zip"
+    "link": "https://github.com/kantjer/MagiskFiles/raw/master/Magisk-uninstaller-2018080910.zip"
   }
 }

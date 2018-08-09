@@ -1,3 +1,5 @@
+8b50d84 Hide unnecessary error log
+d3858b8 Add new boot service: boot-complete
 bdff976 Move remount,ro back to post-fs-data mode
 c61df75 Update RU strings
 a74bf2c Update zh-rCN translation

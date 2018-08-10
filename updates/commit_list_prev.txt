@@ -1,3 +1,11 @@
+afcb3d8 Fix XZ decompression in magiskinit
+9fbffaf Improve build script
+075f045 Split stub APK to new task
+d4568aa Compress binaries and use xz-embedded in magiskinit
+9758840 Reorganize build script
+1def9b3 Use xz-embedded for b64xz
+5bac442 Reorganize sources
+6add682 Remove high compression mode
 8b50d84 Hide unnecessary error log
 d3858b8 Add new boot service: boot-complete
 bdff976 Move remount,ro back to post-fs-data mode

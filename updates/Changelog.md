@@ -1,5 +1,11 @@
-## unofficial (2018080910)~(NDK r10e) 
+## unofficial (2018081011)~(NDK r10e) 
 
 ### Magisk
-- Hide unnecessary error log
-- Add new boot service: boot-complete
+- Fix XZ decompression in magiskinit
+- Improve build script
+- Split stub APK to new task
+- Compress binaries and use xz-embedded in magiskinit
+- Reorganize build script
+- Use xz-embedded for b64xz
+- Reorganize sources
+- Remove high compression mode

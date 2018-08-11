@@ -1,3 +1,7 @@
+0f34f00 Switch to FrankeNDK for building native
+190646d Fix incorrect magisk metadata in ramdisk
+a46c625 Detect insufficient partition size
+5c1886c Update scripts
 afcb3d8 Fix XZ decompression in magiskinit
 9fbffaf Improve build script
 075f045 Split stub APK to new task
@@ -126,9 +130,3 @@ f339a08 Let Magisk compile against SDK 16
 6ccc5f3 Use xwrap functions
 1affb91 Support compiling against lower SDK
 7779c3e Update Magisk Manager
-49ba7ad update Ukrainian language
-6ad33d6 Bump to 5.8.1
-0117274 Better Windows support
-e50192a Use standard ANDROID_NDK_HOME instead of ANDROID_NDK
-c6fc0e5 Support hardlink based proc ns
-68c448b Let ShellInitializer run in BusyBox environment

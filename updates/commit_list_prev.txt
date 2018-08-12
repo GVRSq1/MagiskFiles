@@ -1,3 +1,5 @@
+c967e61 Adjustment to direct install
+59f78d7 Update to BusyBox 1.29.2
 d8405f0 Make recovery installed on on system_root devices normal
 0f34f00 Switch to FrankeNDK for building native
 190646d Fix incorrect magisk metadata in ramdisk

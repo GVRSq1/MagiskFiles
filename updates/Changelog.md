@@ -1,4 +1,5 @@
-## unofficial (2018081216)~(FrankeNDK) 
+## unofficial (2018081222)~(FrankeNDK) 
 
 ### Magisk
-- Make recovery installed on on system_root devices normal
+- Adjustment to direct install
+- Update to BusyBox 1.29.2

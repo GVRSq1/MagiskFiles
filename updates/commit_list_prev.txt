@@ -1,3 +1,4 @@
+d8405f0 Make recovery installed on on system_root devices normal
 0f34f00 Switch to FrankeNDK for building native
 190646d Fix incorrect magisk metadata in ramdisk
 a46c625 Detect insufficient partition size
@@ -126,7 +127,3 @@ adf95ce Read fstab from device tree
 c2e673f Less boilerplate in build script
 2bde8a1 EMUI's logcat will change output file's permission and break ADBD
 bf9927c Sync source with AOSP
-f339a08 Let Magisk compile against SDK 16
-6ccc5f3 Use xwrap functions
-1affb91 Support compiling against lower SDK
-7779c3e Update Magisk Manager

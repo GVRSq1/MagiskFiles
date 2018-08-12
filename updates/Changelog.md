@@ -1,7 +1,4 @@
-## unofficial (2018081113)~(FrankeNDK) 
+## unofficial (2018081216)~(FrankeNDK) 
 
 ### Magisk
-- Switch to FrankeNDK for building native
-- Fix incorrect magisk metadata in ramdisk
-- Detect insufficient partition size
-- Update scripts
+- Make recovery installed on on system_root devices normal

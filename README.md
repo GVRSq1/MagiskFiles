@@ -1,8 +1,14 @@
- ### Custom update channel URL:
+# Magisk Builds
+
+## Description
+
+This Magisk custom update channel provides up-to-date Magisk builds from @topjohnwu's original sources.
+
+To use this custom channel, configure the following URL in your Magisk Manager
+settings:
  
- https://raw.githubusercontent.com/kantjer/MagiskFiles/master/updates/kantjer.json
+https://raw.githubusercontent.com/kantjer/MagiskFiles/master/updates/kantjer.json
 
-
-### Shorten URL:
+Alternatively, this shortened URL will also work:
 
 https://goo.gl/3ws6NC

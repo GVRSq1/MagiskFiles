@@ -1,5 +1,15 @@
-## unofficial (2018081222)~(FrankeNDK) 
+## unofficial (2018082208)~(FrankeNDK) 
 
 ### Magisk
-- Adjustment to direct install
-- Update to BusyBox 1.29.2
+- SN checks is possible after repackage if using new API
+- Fix strings
+- Old Translators removed.
+- Catalan language for Magisk
+- Update Indonesian translation
+- Update French translation
+- Update Italian strings
+- Update snet extension
+- Hide SafetyNet check if no GMS
+- Fix build scripts
+- Read props directly in Gradle
+- added new lines, translations corrections

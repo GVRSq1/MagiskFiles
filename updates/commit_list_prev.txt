@@ -1,3 +1,15 @@
+bfac1f1 SN checks is possible after repackage if using new API
+d4a956c Fix strings
+6c71fef Old Translators removed.
+ad3003c Catalan language for Magisk
+0ad5dcb Update Indonesian translation
+d790309 Update French translation
+1072faf Update Italian strings
+d2c1968 Update snet extension
+e42b608 Hide SafetyNet check if no GMS
+89a501a Fix build scripts
+c19b781 Read props directly in Gradle
+c0b750a added new lines, translations corrections
 c967e61 Adjustment to direct install
 59f78d7 Update to BusyBox 1.29.2
 d8405f0 Make recovery installed on on system_root devices normal
@@ -99,33 +111,3 @@ a747fdd Organize dialog code
 41c0721 Use internal thread pool for update repos
 413d4ba Strip logging code with Proguard
 c5d67eb Update libsu to 2.0.0
-91818cf Support compiling split cils via magiskpolicy CLI
-6263d68 Migrate to JobIntentService to prevent boot notification
-07140d3 Bring back installing to second slot after OTA on A/B devices
-4ffc388 Allow bootctl to run
-0ef026c Remove system root when running addon.d
-153c7fd Script update, artificially bump version
-90379ee Detect ramdisk partition
-3ae959a Do not early mount on symlinks on half Treble devices
-c8cc652 Prevent build fail when APK is first built without out folder
-4b6285e Bump Magisk Manager to v5.8.2
-013de7b Switch channel and snet APK links
-e11e88a Huawei hardcodes the slot suffix, don't append the suffix twice
-7cec8ba Merge magiskpolicy into Magisk main repo
-e987db9 Move magiskpolicy sources to native/jni/magiskpolicy
-c603b90 Remove magiskpolicy as submodule
-492d6df Merge MagiskSU into Magisk main repo
-a3e0f2d Remove MagiskSU as submodule
-cf211e2 Move MagiskSU sources to native/jni/su
-c5aaaa7 Merge Magisk Manager into Magisk main repo
-f86d077 Remove Magisk Manager as submodule
-f807682 Move Magisk Manager files into subfolder
-201d8a9 Prevent crashing on broken module.prop
-d08f326 Log fatal errors in debug mode only
-8dc9d3b Dump binaries to header at build, not at request
-adf95ce Read fstab from device tree
-3c1aca1 Wrap accept4 since some device does not have it
-18d0fd9 MagiskInit optimizations
-c2e673f Less boilerplate in build script
-2bde8a1 EMUI's logcat will change output file's permission and break ADBD
-bf9927c Sync source with AOSP

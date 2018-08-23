@@ -1,3 +1,5 @@
+3948e67 Require authentication to toggle fingerprint settings
+d56e1b2 Move fingerprint settings to global database
 bfac1f1 SN checks is possible after repackage if using new API
 d4a956c Fix strings
 6c71fef Old Translators removed.

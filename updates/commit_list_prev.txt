@@ -1,3 +1,15 @@
+project Magisk/
+fe06352 Remove unused import
+7b59941 Update French translation
+491adf0 Update RU strings
+f6aae2b Add hexpatch to remove Samsung defex in kernel
+d2d5c94 Update Bulgarian
+10581f9 Add new fingerprint string
+c7e0e1c Fix ca-strings
+a914d70 Update zh-rCN translation
+0f9dee6 Update Strings.xml
+aa383e2 Properly get color from attribute
+9bbfcf3 Do not place files into /sdcard/MagiskManager
 3948e67 Require authentication to toggle fingerprint settings
 d56e1b2 Move fingerprint settings to global database
 bfac1f1 SN checks is possible after repackage if using new API
@@ -106,10 +118,57 @@ de225ac Estonian update
 89861ec Install to Second Slot -> Install to Inactive slot
 b8eaff6 Shrink snet APK, and prevent crashing
 a747fdd Organize dialog code
-27851bd Update README.md
-3fdeb40 Update SNET extension dialog interface
-546c7ce Fix #411
-473902f Proper detect MagiskHide status
-41c0721 Use internal thread pool for update repos
-413d4ba Strip logging code with Proguard
-c5d67eb Update libsu to 2.0.0
+project Magisk/native/jni/external/busybox/
+e0e3c28 Add generated files for ndk-build
+fac3b32 Minor adjustments to support ndk-build
+58438a7 ash history
+f610355 dietlibc/dnscruft: try to get dns server via command if __sys_property_get fails
+ef8b198 hack: use dietlibc's resolver to avoid static compiliation
+90fd04d fix nslookup, add libres, a dietlibc resolver
+ac5a1f8 tc: replace old header
+2301241 chrt: fix SCHED_BATCH definition on Android API <21
+470d061 ftpd/pw_encrypt: fix glibc include on Android
+3374937 setpriv/run-init: replace old headers
+06c07f6 fix tls: avoid problematic ASM code only triggered by x86 NDK builds
+f99bad8 fix reboot+poweroff: hack android_reboot support
+4778bc8 depmod: fix syntax with modules in parameter
+6364b6c modinfo/modprobe: use ifdef block for android without-utsrel modules path
+b3c157e fix readahead, add syscall
+d587008 fix hush, add glob and sigisemptyset
+9747a22 fix time+hush: add missing definitions on Android API 21+
+2dd2052 fix udhcpc6: add missing ifaddrs.h and getifaddrs/freeifaddrs functions
+171670b additional fix-up for IPV6 on Android API 21+
+b22a2da fix ipv6, add ipv6_route.h
+f233f47 ipneigh/iproute/iprule: add missing headers
+5335676 fix fsck.minix, mkfs.minix: undef HAVE_SETBIT,
+8365407 blkdiscard; add missing linux/fs.h defines to libbb.h for ANDROID API <21
+6bd9382 missing_syscalls/semctl: fix missing definitions on x86 and
+02f5f52 fix syslogd, logread: add syslog.h, semop shmdt-at
+189a633 android syscalls: shmdt shmat sembuf
+ee50300 android syscall (non-trivial): semctl
+c21ef7e android syscalls: msgctl shmctl
+d879d76 android syscalls: shmget/msgget/semget
+922a29b fix swapon, swapoff: comment out MNTOPT_NOAUTO
+5aa32ea add swapoff/swapon syscalls for android
+353d982 fix zcip: struct ether_arp missing, use FreeBSD's
+d5d0305 nandwrite/nanddump: add missing headers
+f7d9be1 loadfont/setfont/conspy: add missing header
+edabcd6 fix ether-wake, avoid ether_hostton and include if_ether
+050f02b fix arping: include if_arp.h (for arphdr) and add mempcpy.c
+c292481 fix udhcpd and nameif, add ether_ntoa_r and ether_aton_r from glibc
+ef4bcb9 ifplugd: add missing header
+2e5076c add include/mtd/ubi-user.h from linux kernel
+326d896 add include/linux/watchdog.h from linux kernel
+91c57c4 ifenslave: add missing headers
+1c59d8d ifconfig_slip: add missing headers
+e3512bb eject: add missing headers
+b1c24fe rfkill: add missing header
+22a0ad7 telnet/telnetd: add missing header
+bde2767 Fix df missing header on API <21
+681fa90 Fix mntent patch linking error "multiple definition of `getmntent'"
+5f8e8d0 android: fix 'mount', 'umount', 'fsck', 'df'
+ab4caf0 Bump version to 1.29.2
+1c3bcfc fdisk: sync up with some util-linux 2.31 behavior
+096ccd6 fdisk: use strtoul[l] instead of atoi, closes 11176
+d674b2e gzip: unbreak FEATURE_GZIP_LEVELS, closes 11171
+abe8fc3 hexedit: fixes for redraw and down movement causing SEGV on attempt to access

@@ -1,0 +1,115 @@
+3948e67 Require authentication to toggle fingerprint settings
+d56e1b2 Move fingerprint settings to global database
+bfac1f1 SN checks is possible after repackage if using new API
+d4a956c Fix strings
+6c71fef Old Translators removed.
+ad3003c Catalan language for Magisk
+0ad5dcb Update Indonesian translation
+d790309 Update French translation
+1072faf Update Italian strings
+d2c1968 Update snet extension
+e42b608 Hide SafetyNet check if no GMS
+89a501a Fix build scripts
+c19b781 Read props directly in Gradle
+c0b750a added new lines, translations corrections
+c967e61 Adjustment to direct install
+59f78d7 Update to BusyBox 1.29.2
+d8405f0 Make recovery installed on on system_root devices normal
+0f34f00 Switch to FrankeNDK for building native
+190646d Fix incorrect magisk metadata in ramdisk
+a46c625 Detect insufficient partition size
+5c1886c Update scripts
+afcb3d8 Fix XZ decompression in magiskinit
+9fbffaf Improve build script
+075f045 Split stub APK to new task
+d4568aa Compress binaries and use xz-embedded in magiskinit
+9758840 Reorganize build script
+1def9b3 Use xz-embedded for b64xz
+5bac442 Reorganize sources
+6add682 Remove high compression mode
+8b50d84 Hide unnecessary error log
+d3858b8 Add new boot service: boot-complete
+bdff976 Move remount,ro back to post-fs-data mode
+c61df75 Update RU strings
+a74bf2c Update zh-rCN translation
+ada0f93 Apply all sepolicy patches pre-init
+ff36f2b Add 1 more byte to mark
+5164cfd Move butterknife config to full only
+5fa0215 Update to libsu 2.0.1
+7b5d79d Kill all processes using the same UID of the target
+3e3f385 Only use required memory size
+5109b9a Allow modules be managed in core only mode, and add notice in UI
+7fb4777 Improve update channel settings
+c38533e Prevent problematic modules causing device stuck in bootloop
+51ba99d Update Strings Spanish
+9159f86 Improvements to system_root devices booting as recovery
+e139f4f Small build script adjustments
+2fbfeac Show toast when intent to open a link is not resolved
+ebb7a9f Open links in a new task
+9e72317 Ensure intent are resolved when opening link
+d764c20 Fix crash on boot on Android pre-O
+9c17b8a Better subprocess support
+3084873 Fix missing RU translate
+32809e5 Sign release zips with release-key.jks
+9f05b18 Verify existing file checksum to prevent needless downloads
+525484e Update zh-rCN translation
+65a4e69 Updating French translation
+e973f8b Update RU strings pt.2
+9246667 Update Indonesian translations
+6d61106 Update Bulgarian
+ac13749 Update UK strings
+7ec1a9a Update RU strings
+cf17e21 Proper callback to trigger UI update
+0e0240c Better download UI
+d1b290b Fix install failure
+a636968 Proper addon.d-v2 support
+46aad00 Use buffer on stack
+252afe8 Use mirror in post-fs-data scripts
+9dd467a Update Trad. Chinese translations
+4c14df6 Add warning before installing to inactive slot
+20e0fe3 Update Bulgarian
+6a00513 Update zh-rCN translation
+82e8375 Respect filesystem type when mounting mirrors
+bb25edc Use own busybox for get_outfd
+169c0fe Stop use clashing names
+cd6918e Stop altering PATH to mirror
+5be035f Try logging a little harder
+f1edc84 Make root shell always use dev_pts
+d9564bd Delay full sepolicy patch loading time
+35f1c39 Request write external storage permission
+6acb950 Simplify repo update logic
+27e0d16 Show proper time of repo updates
+9ac71ff Simplify asynchronous tasks
+075737a Fix crash
+6d0e4a6 Rename base activity and fragments
+a254476 Remove boilderplate
+8574a14 Improve locale settings
+e90c555 Some cleanups
+863b9a4 Rewrite Topics
+23c7bbc Move Const to upper package
+f900189 Rename and move methods
+7c74be2 Create LocaleManager
+70dd2d4 More moving
+914b7ee Start moving things outside of top Application class
+e39f83e Do not unmount database when cleaning up repackaged manager
+52fe0c6 Fix restore manager on Android P
+5cb3e59 Update policy list when resuming the superuser fragment.
+e0cd224 Update Strings.xml Spanish
+de225ac Estonian update
+5807808 Update Italian Translation
+362877d Update strings.xml
+88b8dd0 Update French translation
+1552f32 Keep the methods in SN check interface
+50b73a6 Clear up more component in stub APK
+53e51f1 Allow incomplete update JSONs
+40b63bf Don't use DownloadManager for Magisk
+89861ec Install to Second Slot -> Install to Inactive slot
+b8eaff6 Shrink snet APK, and prevent crashing
+a747fdd Organize dialog code
+27851bd Update README.md
+3fdeb40 Update SNET extension dialog interface
+546c7ce Fix #411
+473902f Proper detect MagiskHide status
+41c0721 Use internal thread pool for update repos
+413d4ba Strip logging code with Proguard
+c5d67eb Update libsu to 2.0.0

@@ -1,4 +1,10 @@
 project Magisk/
+1643638 Slovak language
+4ace228 Update SnackbarMaker.java
+25aa86a update Ukrainian translation
+70d3b24 Keep dm/avb-verity when device is using system_root_image
+8664e9d Update scripts
+50d9877 Sign debug builds with custom keystore if applicable
 fe06352 Remove unused import
 7b59941 Update French translation
 491adf0 Update RU strings
@@ -113,11 +119,6 @@ de225ac Estonian update
 88b8dd0 Update French translation
 1552f32 Keep the methods in SN check interface
 50b73a6 Clear up more component in stub APK
-53e51f1 Allow incomplete update JSONs
-40b63bf Don't use DownloadManager for Magisk
-89861ec Install to Second Slot -> Install to Inactive slot
-b8eaff6 Shrink snet APK, and prevent crashing
-a747fdd Organize dialog code
 project Magisk/native/jni/external/busybox/
 e0e3c28 Add generated files for ndk-build
 fac3b32 Minor adjustments to support ndk-build

@@ -1,13 +1,9 @@
-## 16.8/5.8.4-unofficial (2018082708)
+## v16.8/v5.8.4
 
-- Remove unused import
-- Update French translation
-- Update RU strings
-- Add hexpatch to remove Samsung defex in kernel
-- Update Bulgarian
-- Add new fingerprint string
-- Fix ca-strings
-- Update zh-rCN translation
-- Update Strings.xml
-- Properly get color from attribute
-- Do not place files into /sdcard/MagiskManager
+### Magisk
+- Slovak language
+- Update SnackbarMaker.java
+- update Ukrainian translation
+- Keep dm/avb-verity when device is using system_root_image
+- Update scripts
+- Sign debug builds with custom keystore if applicable

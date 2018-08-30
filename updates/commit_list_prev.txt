@@ -1,4 +1,12 @@
 project Magisk/
+1560f91 Move layout from main to full
+c20f362 Update trad. Chinese translation
+7ae8c26 Improve About and Donation page
+adfffe6 Better back pressing logic
+64601ba Update Magisk Manager README
+aa374b5 Move fragments to separate package
+5c48374 Move settings out of separate Activity
+0c24711 Also get default flags in non-root environment
 1643638 Slovak language
 4ace228 Update SnackbarMaker.java
 25aa86a update Ukrainian translation
@@ -106,19 +114,6 @@ e90c555 Some cleanups
 863b9a4 Rewrite Topics
 23c7bbc Move Const to upper package
 f900189 Rename and move methods
-7c74be2 Create LocaleManager
-70dd2d4 More moving
-914b7ee Start moving things outside of top Application class
-e39f83e Do not unmount database when cleaning up repackaged manager
-52fe0c6 Fix restore manager on Android P
-5cb3e59 Update policy list when resuming the superuser fragment.
-e0cd224 Update Strings.xml Spanish
-de225ac Estonian update
-5807808 Update Italian Translation
-362877d Update strings.xml
-88b8dd0 Update French translation
-1552f32 Keep the methods in SN check interface
-50b73a6 Clear up more component in stub APK
 project Magisk/native/jni/external/busybox/
 e0e3c28 Add generated files for ndk-build
 fac3b32 Minor adjustments to support ndk-build
@@ -169,7 +164,3 @@ bde2767 Fix df missing header on API <21
 681fa90 Fix mntent patch linking error "multiple definition of `getmntent'"
 5f8e8d0 android: fix 'mount', 'umount', 'fsck', 'df'
 ab4caf0 Bump version to 1.29.2
-1c3bcfc fdisk: sync up with some util-linux 2.31 behavior
-096ccd6 fdisk: use strtoul[l] instead of atoi, closes 11176
-d674b2e gzip: unbreak FEATURE_GZIP_LEVELS, closes 11171
-abe8fc3 hexedit: fixes for redraw and down movement causing SEGV on attempt to access

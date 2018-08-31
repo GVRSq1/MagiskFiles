@@ -1,4 +1,10 @@
 project Magisk/
+a8478ac Use macros
+72cf5f3 Temporary disable module bootloop prevention
+6f9d493 Update zh-rCN translation
+08f7d5e Update strings.xml
+1fe3675 Update RU strings
+a0f956d Update Italian translation - Twitter string
 1560f91 Move layout from main to full
 c20f362 Update trad. Chinese translation
 7ae8c26 Improve About and Donation page
@@ -108,12 +114,6 @@ d9564bd Delay full sepolicy patch loading time
 9ac71ff Simplify asynchronous tasks
 075737a Fix crash
 6d0e4a6 Rename base activity and fragments
-a254476 Remove boilderplate
-8574a14 Improve locale settings
-e90c555 Some cleanups
-863b9a4 Rewrite Topics
-23c7bbc Move Const to upper package
-f900189 Rename and move methods
 project Magisk/native/jni/external/busybox/
 e0e3c28 Add generated files for ndk-build
 fac3b32 Minor adjustments to support ndk-build
@@ -163,4 +163,3 @@ b1c24fe rfkill: add missing header
 bde2767 Fix df missing header on API <21
 681fa90 Fix mntent patch linking error "multiple definition of `getmntent'"
 5f8e8d0 android: fix 'mount', 'umount', 'fsck', 'df'
-ab4caf0 Bump version to 1.29.2

@@ -1,4 +1,7 @@
 project Magisk/
+298d5e1 Update Magisk Manager changelog
+d73c0a9 Update Bulgarian
+1b79a3d Update OTA tutorial for v17
 a8478ac Use macros
 72cf5f3 Temporary disable module bootloop prevention
 6f9d493 Update zh-rCN translation
@@ -107,13 +110,6 @@ bb25edc Use own busybox for get_outfd
 cd6918e Stop altering PATH to mirror
 5be035f Try logging a little harder
 f1edc84 Make root shell always use dev_pts
-d9564bd Delay full sepolicy patch loading time
-35f1c39 Request write external storage permission
-6acb950 Simplify repo update logic
-27e0d16 Show proper time of repo updates
-9ac71ff Simplify asynchronous tasks
-075737a Fix crash
-6d0e4a6 Rename base activity and fragments
 project Magisk/native/jni/external/busybox/
 e0e3c28 Add generated files for ndk-build
 fac3b32 Minor adjustments to support ndk-build

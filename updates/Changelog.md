@@ -1,9 +1,6 @@
-## v16.8/v5.8.4
+## v17.0/v5.9.0
 
 ### Magisk
-- Use macros
-- Temporary disable module bootloop prevention
-- Update zh-rCN translation
-- Update strings.xml
-- Update RU strings
-- Update Italian translation - Twitter string
+- Update Magisk Manager changelog
+- Update Bulgarian
+- Update OTA tutorial for v17

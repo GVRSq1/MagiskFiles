@@ -1,4 +1,6 @@
 project Magisk/
+0543239 Do not merge binaries if fake symlink
+ff3dad2 Prevent upgrading database before upgrading to v17.0
 298d5e1 Update Magisk Manager changelog
 d73c0a9 Update Bulgarian
 1b79a3d Update OTA tutorial for v17
@@ -109,7 +111,6 @@ bb25edc Use own busybox for get_outfd
 169c0fe Stop use clashing names
 cd6918e Stop altering PATH to mirror
 5be035f Try logging a little harder
-f1edc84 Make root shell always use dev_pts
 project Magisk/native/jni/external/busybox/
 e0e3c28 Add generated files for ndk-build
 fac3b32 Minor adjustments to support ndk-build

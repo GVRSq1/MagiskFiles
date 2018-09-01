@@ -1,6 +1,5 @@
-## v17.0/v5.9.0
+## v17.1/v5.9.1
 
 ### Magisk
-- Update Magisk Manager changelog
-- Update Bulgarian
-- Update OTA tutorial for v17
+- Do not merge binaries if fake symlink
+- Prevent upgrading database before upgrading to v17.0

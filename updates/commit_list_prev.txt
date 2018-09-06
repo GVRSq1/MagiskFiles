@@ -1,4 +1,5 @@
 project Magisk/
+ad7ec79 Support custom config paths
 0543239 Do not merge binaries if fake symlink
 ff3dad2 Prevent upgrading database before upgrading to v17.0
 298d5e1 Update Magisk Manager changelog
@@ -77,40 +78,6 @@ ff36f2b Add 1 more byte to mark
 3e3f385 Only use required memory size
 5109b9a Allow modules be managed in core only mode, and add notice in UI
 7fb4777 Improve update channel settings
-c38533e Prevent problematic modules causing device stuck in bootloop
-51ba99d Update Strings Spanish
-9159f86 Improvements to system_root devices booting as recovery
-e139f4f Small build script adjustments
-2fbfeac Show toast when intent to open a link is not resolved
-ebb7a9f Open links in a new task
-9e72317 Ensure intent are resolved when opening link
-d764c20 Fix crash on boot on Android pre-O
-9c17b8a Better subprocess support
-3084873 Fix missing RU translate
-32809e5 Sign release zips with release-key.jks
-9f05b18 Verify existing file checksum to prevent needless downloads
-525484e Update zh-rCN translation
-65a4e69 Updating French translation
-e973f8b Update RU strings pt.2
-9246667 Update Indonesian translations
-6d61106 Update Bulgarian
-ac13749 Update UK strings
-7ec1a9a Update RU strings
-cf17e21 Proper callback to trigger UI update
-0e0240c Better download UI
-d1b290b Fix install failure
-a636968 Proper addon.d-v2 support
-46aad00 Use buffer on stack
-252afe8 Use mirror in post-fs-data scripts
-9dd467a Update Trad. Chinese translations
-4c14df6 Add warning before installing to inactive slot
-20e0fe3 Update Bulgarian
-6a00513 Update zh-rCN translation
-82e8375 Respect filesystem type when mounting mirrors
-bb25edc Use own busybox for get_outfd
-169c0fe Stop use clashing names
-cd6918e Stop altering PATH to mirror
-5be035f Try logging a little harder
 project Magisk/native/jni/external/busybox/
 e0e3c28 Add generated files for ndk-build
 fac3b32 Minor adjustments to support ndk-build

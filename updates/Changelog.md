@@ -1,5 +1,4 @@
-## v17.1/v5.9.1
+## v17.2.e1/v5.9.2.e1
 
 ### Magisk
-- Do not merge binaries if fake symlink
-- Prevent upgrading database before upgrading to v17.0
+- Support custom config paths

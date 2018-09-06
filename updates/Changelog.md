@@ -1,4 +1,5 @@
-## v17.2.e1/v5.9.2.e1
+## v17.2.e2/v5.9.2.e2
 
 ### Magisk
-- Support custom config paths
+- Add resetprop magic
+- Use libsystemproperties in resetprop

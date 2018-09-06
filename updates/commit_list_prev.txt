@@ -1,4 +1,5 @@
 project Magisk/
+2d7c1da Better support for external config file
 c0f45b6 Add resetprop magic
 7a00256 Use libsystemproperties in resetprop
 ad7ec79 Support custom config paths
@@ -77,7 +78,6 @@ ff36f2b Add 1 more byte to mark
 5164cfd Move butterknife config to full only
 5fa0215 Update to libsu 2.0.1
 7b5d79d Kill all processes using the same UID of the target
-3e3f385 Only use required memory size
 project Magisk/native/jni/external/busybox/
 e0e3c28 Add generated files for ndk-build
 fac3b32 Minor adjustments to support ndk-build

@@ -1,4 +1,11 @@
 project Magisk/
+39be7a6 Update stub French translation
+8ac976c Update French translation (#576)
+70fd432 Update Slovak translation
+00135f2 updated full\res\values.de\strings.xml
+9b944bc Update Indonesian translations
+d520b3d Request storage permission when patching boot images
+6f41d98 Randomize service names
 2d7c1da Better support for external config file
 c0f45b6 Add resetprop magic
 7a00256 Use libsystemproperties in resetprop
@@ -60,24 +67,6 @@ d8405f0 Make recovery installed on on system_root devices normal
 190646d Fix incorrect magisk metadata in ramdisk
 a46c625 Detect insufficient partition size
 5c1886c Update scripts
-afcb3d8 Fix XZ decompression in magiskinit
-9fbffaf Improve build script
-075f045 Split stub APK to new task
-d4568aa Compress binaries and use xz-embedded in magiskinit
-9758840 Reorganize build script
-1def9b3 Use xz-embedded for b64xz
-5bac442 Reorganize sources
-6add682 Remove high compression mode
-8b50d84 Hide unnecessary error log
-d3858b8 Add new boot service: boot-complete
-bdff976 Move remount,ro back to post-fs-data mode
-c61df75 Update RU strings
-a74bf2c Update zh-rCN translation
-ada0f93 Apply all sepolicy patches pre-init
-ff36f2b Add 1 more byte to mark
-5164cfd Move butterknife config to full only
-5fa0215 Update to libsu 2.0.1
-7b5d79d Kill all processes using the same UID of the target
 project Magisk/native/jni/external/busybox/
 e0e3c28 Add generated files for ndk-build
 fac3b32 Minor adjustments to support ndk-build

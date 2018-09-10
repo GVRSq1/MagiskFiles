@@ -1,4 +1,10 @@
 project Magisk/
+0659494 Migrate to AndroidX support library
+39c8257 Prevent warning
+37221a5 Update README.MD
+6b43a32 Delete repo_description.png
+d7cd1ff [ImgBot] optimizes images
+659d947 Updated German translations
 39be7a6 Update stub French translation
 8ac976c Update French translation (#576)
 70fd432 Update Slovak translation
@@ -65,8 +71,6 @@ c967e61 Adjustment to direct install
 d8405f0 Make recovery installed on on system_root devices normal
 0f34f00 Switch to FrankeNDK for building native
 190646d Fix incorrect magisk metadata in ramdisk
-a46c625 Detect insufficient partition size
-5c1886c Update scripts
 project Magisk/native/jni/external/busybox/
 e0e3c28 Add generated files for ndk-build
 fac3b32 Minor adjustments to support ndk-build

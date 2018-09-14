@@ -1,4 +1,6 @@
 project Magisk/
+6710314 Allow all context to SIGCLD magisk
+0cd4fa6 Simplify SignAPK code
 0659494 Migrate to AndroidX support library
 39c8257 Prevent warning
 37221a5 Update README.MD
@@ -65,58 +67,3 @@ d2c1968 Update snet extension
 e42b608 Hide SafetyNet check if no GMS
 89a501a Fix build scripts
 c19b781 Read props directly in Gradle
-c0b750a added new lines, translations corrections
-c967e61 Adjustment to direct install
-59f78d7 Update to BusyBox 1.29.2
-d8405f0 Make recovery installed on on system_root devices normal
-0f34f00 Switch to FrankeNDK for building native
-190646d Fix incorrect magisk metadata in ramdisk
-project Magisk/native/jni/external/busybox/
-e0e3c28 Add generated files for ndk-build
-fac3b32 Minor adjustments to support ndk-build
-58438a7 ash history
-f610355 dietlibc/dnscruft: try to get dns server via command if __sys_property_get fails
-ef8b198 hack: use dietlibc's resolver to avoid static compiliation
-90fd04d fix nslookup, add libres, a dietlibc resolver
-ac5a1f8 tc: replace old header
-2301241 chrt: fix SCHED_BATCH definition on Android API <21
-470d061 ftpd/pw_encrypt: fix glibc include on Android
-3374937 setpriv/run-init: replace old headers
-06c07f6 fix tls: avoid problematic ASM code only triggered by x86 NDK builds
-f99bad8 fix reboot+poweroff: hack android_reboot support
-4778bc8 depmod: fix syntax with modules in parameter
-6364b6c modinfo/modprobe: use ifdef block for android without-utsrel modules path
-b3c157e fix readahead, add syscall
-d587008 fix hush, add glob and sigisemptyset
-9747a22 fix time+hush: add missing definitions on Android API 21+
-2dd2052 fix udhcpc6: add missing ifaddrs.h and getifaddrs/freeifaddrs functions
-171670b additional fix-up for IPV6 on Android API 21+
-b22a2da fix ipv6, add ipv6_route.h
-f233f47 ipneigh/iproute/iprule: add missing headers
-5335676 fix fsck.minix, mkfs.minix: undef HAVE_SETBIT,
-8365407 blkdiscard; add missing linux/fs.h defines to libbb.h for ANDROID API <21
-6bd9382 missing_syscalls/semctl: fix missing definitions on x86 and
-02f5f52 fix syslogd, logread: add syslog.h, semop shmdt-at
-189a633 android syscalls: shmdt shmat sembuf
-ee50300 android syscall (non-trivial): semctl
-c21ef7e android syscalls: msgctl shmctl
-d879d76 android syscalls: shmget/msgget/semget
-922a29b fix swapon, swapoff: comment out MNTOPT_NOAUTO
-5aa32ea add swapoff/swapon syscalls for android
-353d982 fix zcip: struct ether_arp missing, use FreeBSD's
-d5d0305 nandwrite/nanddump: add missing headers
-f7d9be1 loadfont/setfont/conspy: add missing header
-edabcd6 fix ether-wake, avoid ether_hostton and include if_ether
-050f02b fix arping: include if_arp.h (for arphdr) and add mempcpy.c
-c292481 fix udhcpd and nameif, add ether_ntoa_r and ether_aton_r from glibc
-ef4bcb9 ifplugd: add missing header
-2e5076c add include/mtd/ubi-user.h from linux kernel
-326d896 add include/linux/watchdog.h from linux kernel
-91c57c4 ifenslave: add missing headers
-1c59d8d ifconfig_slip: add missing headers
-e3512bb eject: add missing headers
-b1c24fe rfkill: add missing header
-22a0ad7 telnet/telnetd: add missing header
-bde2767 Fix df missing header on API <21
-681fa90 Fix mntent patch linking error "multiple definition of `getmntent'"
-5f8e8d0 android: fix 'mount', 'umount', 'fsck', 'df'

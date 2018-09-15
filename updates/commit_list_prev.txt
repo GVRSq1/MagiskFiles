@@ -1,4 +1,6 @@
 project Magisk/
+af7c6f9 Fix FlashActivity crash
+78534de Excessive obfuscation when building in release mode
 6710314 Allow all context to SIGCLD magisk
 0cd4fa6 Simplify SignAPK code
 0659494 Migrate to AndroidX support library

@@ -1,5 +1,5 @@
-## v17.2.e7/v5.9.2.e7
+## v17.2.e8/v5.9.2.e8
 
 ### Magisk
-- Allow all context to SIGCLD magisk
-- Simplify SignAPK code
+- Fix FlashActivity crash
+- Excessive obfuscation when building in release mode

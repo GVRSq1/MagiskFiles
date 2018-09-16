@@ -1,6 +1,4 @@
-## v17.2.e9/v5.9.2.e9
+## v17.2.e10/v5.9.2.e10
 
 ### Magisk
-- Fix FlashActivity crash
-- Use ClassMaps to prevent errors
-- Use proper socket address length
+- New method of communication

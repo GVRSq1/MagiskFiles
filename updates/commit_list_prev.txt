@@ -1,4 +1,5 @@
 project Magisk/
+906b4aa New method of communication
 4cf8d41 Fix FlashActivity crash
 47c8601 Use ClassMaps to prevent errors
 2fba3f2 Use proper socket address length

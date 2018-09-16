@@ -1,4 +1,7 @@
 project Magisk/
+4cf8d41 Fix FlashActivity crash
+47c8601 Use ClassMaps to prevent errors
+2fba3f2 Use proper socket address length
 af7c6f9 Fix FlashActivity crash
 78534de Excessive obfuscation when building in release mode
 6710314 Allow all context to SIGCLD magisk

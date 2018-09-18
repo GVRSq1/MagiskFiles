@@ -1,4 +1,6 @@
-## v17.2.e10/v5.9.2.e10
+## v17.2/v5.9.2 rev.11
 
 ### Magisk
-- New method of communication
+- Prevent null strings in modules/repos
+- Fix small theme config issue
+- Force remove busybox from APK

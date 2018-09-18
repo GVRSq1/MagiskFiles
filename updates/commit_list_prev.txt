@@ -1,4 +1,7 @@
 project Magisk/
+2c04362 Prevent null strings in modules/repos
+017fbf2 Fix small theme config issue
+e6afbf2 Force remove busybox from APK
 906b4aa New method of communication
 4cf8d41 Fix FlashActivity crash
 47c8601 Use ClassMaps to prevent errors

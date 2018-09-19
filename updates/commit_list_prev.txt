@@ -1,4 +1,6 @@
 project Magisk/
+244e811 Remove icon padding in preference screen
+ac7467f Optimize boot signing to use as little memory as possible
 2c04362 Prevent null strings in modules/repos
 017fbf2 Fix small theme config issue
 e6afbf2 Force remove busybox from APK
@@ -75,4 +77,3 @@ d790309 Update French translation
 d2c1968 Update snet extension
 e42b608 Hide SafetyNet check if no GMS
 89a501a Fix build scripts
-c19b781 Read props directly in Gradle

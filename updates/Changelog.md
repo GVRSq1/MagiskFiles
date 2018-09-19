@@ -1,6 +1,5 @@
-## v17.2/v5.9.2 rev.11
+## v17.2/v5.9.2 rev.12
 
 ### Magisk
-- Prevent null strings in modules/repos
-- Fix small theme config issue
-- Force remove busybox from APK
+- Remove icon padding in preference screen
+- Optimize boot signing to use as little memory as possible

@@ -1,4 +1,12 @@
 project Magisk/
+36dd910 Stable AndroidX
+0a4ee3f Update README.MD
+cfe32f1 Update Magisk Manager changelogs
+d877f5d update Ukrainian strings
+0ab6ffe utils/misc.c: prevent file staying opened when function leaving
+a292a1d Cleanup and add new rules
+3f87f6a Fix output in Magisk Manager if no root exists
+04bcd14 Add a.a alias to BootSigner
 244e811 Remove icon padding in preference screen
 ac7467f Optimize boot signing to use as little memory as possible
 2c04362 Prevent null strings in modules/repos
@@ -65,15 +73,3 @@ a914d70 Update zh-rCN translation
 0f9dee6 Update Strings.xml
 aa383e2 Properly get color from attribute
 9bbfcf3 Do not place files into /sdcard/MagiskManager
-3948e67 Require authentication to toggle fingerprint settings
-d56e1b2 Move fingerprint settings to global database
-bfac1f1 SN checks is possible after repackage if using new API
-d4a956c Fix strings
-6c71fef Old Translators removed.
-ad3003c Catalan language for Magisk
-0ad5dcb Update Indonesian translation
-d790309 Update French translation
-1072faf Update Italian strings
-d2c1968 Update snet extension
-e42b608 Hide SafetyNet check if no GMS
-89a501a Fix build scripts

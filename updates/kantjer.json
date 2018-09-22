@@ -1,19 +1,19 @@
 {
   "app": {
-    "version": "5.9.2.r12-unofficial",
-    "versionCode": "2018091912",
-    "link": "https://github.com/kantjer/MagiskFiles/raw/master/MagiskManager-v5.9.2.r12-2018091912.apk",
-    "note": "https://raw.githubusercontent.com/kantjer/MagiskFiles/master/Changelog-2018091912.md"
+    "version": "6.0.1.r2-unofficial",
+    "versionCode": "2018092218",
+    "link": "https://github.com/kantjer/MagiskFiles/raw/master/MagiskManager-v6.0.1.r2-2018092218.apk",
+    "note": "https://raw.githubusercontent.com/kantjer/MagiskFiles/master/Changelog-2018092218.md"
   },
   "magisk": {
-    "version": "17.2.r12-unofficial",
-    "versionCode": "2018091912",
-    "link": "https://github.com/kantjer/MagiskFiles/raw/master/Magisk-v17.2.r12-2018091912.zip",
+    "version": "17.3.r2-unofficial",
+    "versionCode": "2018092218",
+    "link": "https://github.com/kantjer/MagiskFiles/raw/master/Magisk-v17.3.r2-2018092218.zip",
     "note": "https://raw.githubusercontent.com/kantjer/MagiskFiles/master/updates/Changelog.md",
-    "md5": "a393ce9ad79d360a295c975e83943170"
+    "md5": "97c9668293b7c1fc03177d4707c0a2e0"
   },
     "uninstaller": {
-    "link": "https://github.com/kantjer/MagiskFiles/raw/master/Magisk-uninstaller-2018091912.zip"
+    "link": "https://github.com/kantjer/MagiskFiles/raw/master/Magisk-uninstaller-2018092218.zip"
   },
     "snet": {
     "versionCode": "11",

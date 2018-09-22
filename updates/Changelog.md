@@ -1,5 +1,11 @@
-## v17.2/v5.9.2 rev.12
+## v17.3/v6.0.1 rev.2
 
 ### Magisk
-- Remove icon padding in preference screen
-- Optimize boot signing to use as little memory as possible
+- Stable AndroidX
+- Update README.MD
+- Update Magisk Manager changelogs
+- update Ukrainian strings
+- utils/misc.c: prevent file staying opened when function leaving
+- Cleanup and add new rules
+- Fix output in Magisk Manager if no root exists
+- Add a.a alias to BootSigner

@@ -1,4 +1,6 @@
 project Magisk/
+1d53335 Dynamic load libselinux
+971a50d Update to Android Studio 3.2
 36dd910 Stable AndroidX
 0a4ee3f Update README.MD
 cfe32f1 Update Magisk Manager changelogs
@@ -62,14 +64,3 @@ aa374b5 Move fragments to separate package
 70d3b24 Keep dm/avb-verity when device is using system_root_image
 8664e9d Update scripts
 50d9877 Sign debug builds with custom keystore if applicable
-fe06352 Remove unused import
-7b59941 Update French translation
-491adf0 Update RU strings
-f6aae2b Add hexpatch to remove Samsung defex in kernel
-d2d5c94 Update Bulgarian
-10581f9 Add new fingerprint string
-c7e0e1c Fix ca-strings
-a914d70 Update zh-rCN translation
-0f9dee6 Update Strings.xml
-aa383e2 Properly get color from attribute
-9bbfcf3 Do not place files into /sdcard/MagiskManager

@@ -1,4 +1,12 @@
 project Magisk/
+b127e01 Simplify debug flag propagation
+2118bee Magisk-Modules-Repo now names repo with ID, simplify logic here
+5020cd1 Small cleanup
+cce6362 Reorganization
+60b3b8d Better incremental builds
+41446ec Separate libutils and libsystemproperties
+df8b047 Generalize logging interface
+12ced52 Remove unused flag
 1d53335 Dynamic load libselinux
 971a50d Update to Android Studio 3.2
 36dd910 Stable AndroidX
@@ -58,9 +66,3 @@ adfffe6 Better back pressing logic
 aa374b5 Move fragments to separate package
 5c48374 Move settings out of separate Activity
 0c24711 Also get default flags in non-root environment
-1643638 Slovak language
-4ace228 Update SnackbarMaker.java
-25aa86a update Ukrainian translation
-70d3b24 Keep dm/avb-verity when device is using system_root_image
-8664e9d Update scripts
-50d9877 Sign debug builds with custom keystore if applicable

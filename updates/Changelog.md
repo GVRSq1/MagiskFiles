@@ -1,5 +1,12 @@
-## v17.3/v6.0.1 rev.3
+## v17.3/v6.0.1 rev.4
 
 ### Magisk
-- Dynamic load libselinux
-- Update to Android Studio 3.2
+- Simplify debug flag propagation
+
+### Magisk-Modules-Repo now names repo with ID, simplify logic here
+- Small cleanup
+- Reorganization
+- Better incremental builds
+- Separate libutils and libsystemproperties
+- Generalize logging interface
+- Remove unused flag

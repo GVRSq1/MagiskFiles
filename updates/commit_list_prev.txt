@@ -1,4 +1,8 @@
 project Magisk/
+58ae596 Require fp auth when toggling su permission if required
+f1ca216 Set boolean when toggling
+d7eeef2 Separate fingerprint authentication dialog code
+4f62689 Cleanup
 b127e01 Simplify debug flag propagation
 2118bee Magisk-Modules-Repo now names repo with ID, simplify logic here
 5020cd1 Small cleanup
@@ -58,11 +62,3 @@ a8478ac Use macros
 08f7d5e Update strings.xml
 1fe3675 Update RU strings
 a0f956d Update Italian translation - Twitter string
-1560f91 Move layout from main to full
-c20f362 Update trad. Chinese translation
-7ae8c26 Improve About and Donation page
-adfffe6 Better back pressing logic
-64601ba Update Magisk Manager README
-aa374b5 Move fragments to separate package
-5c48374 Move settings out of separate Activity
-0c24711 Also get default flags in non-root environment

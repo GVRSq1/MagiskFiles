@@ -1,7 +1,8 @@
-## v17.3/v6.0.1 rev.5
+## v17.3/v6.0.1 rev.6
 
 ### Magisk
-- Require fp auth when toggling su permission if required
-- Set boolean when toggling
-- Separate fingerprint authentication dialog code
-- Cleanup
+- Use poll instead of select
+- Finish su implementation
+- Rewrite su daemon and client
+- Code cleanups
+- Simplify su_info caches

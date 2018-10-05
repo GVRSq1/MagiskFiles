@@ -1,4 +1,9 @@
 project Magisk/
+e8e39e0 Use poll instead of select
+3786018 Finish su implementation
+d119dd9 Rewrite su daemon and client
+09ef19f Code cleanups
+6a06c92 Simplify su_info caches
 58ae596 Require fp auth when toggling su permission if required
 f1ca216 Set boolean when toggling
 d7eeef2 Separate fingerprint authentication dialog code
@@ -51,14 +56,3 @@ d520b3d Request storage permission when patching boot images
 c0f45b6 Add resetprop magic
 7a00256 Use libsystemproperties in resetprop
 ad7ec79 Support custom config paths
-0543239 Do not merge binaries if fake symlink
-ff3dad2 Prevent upgrading database before upgrading to v17.0
-298d5e1 Update Magisk Manager changelog
-d73c0a9 Update Bulgarian
-1b79a3d Update OTA tutorial for v17
-a8478ac Use macros
-72cf5f3 Temporary disable module bootloop prevention
-6f9d493 Update zh-rCN translation
-08f7d5e Update strings.xml
-1fe3675 Update RU strings
-a0f956d Update Italian translation - Twitter string

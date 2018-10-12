@@ -1,4 +1,8 @@
 project Magisk/
+d5a56d9 Fix bootloop for some devices with two /data
+acf7c0c Minor reorganization of daemons
+619d48c Remove doc changelogs
+2cb198c Update README
 e8e39e0 Use poll instead of select
 3786018 Finish su implementation
 d119dd9 Rewrite su daemon and client
@@ -37,22 +41,3 @@ e6afbf2 Force remove busybox from APK
 2fba3f2 Use proper socket address length
 af7c6f9 Fix FlashActivity crash
 78534de Excessive obfuscation when building in release mode
-6710314 Allow all context to SIGCLD magisk
-0cd4fa6 Simplify SignAPK code
-0659494 Migrate to AndroidX support library
-39c8257 Prevent warning
-37221a5 Update README.MD
-6b43a32 Delete repo_description.png
-d7cd1ff [ImgBot] optimizes images
-659d947 Updated German translations
-39be7a6 Update stub French translation
-8ac976c Update French translation (#576)
-70fd432 Update Slovak translation
-00135f2 updated full\res\values.de\strings.xml
-9b944bc Update Indonesian translations
-d520b3d Request storage permission when patching boot images
-6f41d98 Randomize service names
-2d7c1da Better support for external config file
-c0f45b6 Add resetprop magic
-7a00256 Use libsystemproperties in resetprop
-ad7ec79 Support custom config paths

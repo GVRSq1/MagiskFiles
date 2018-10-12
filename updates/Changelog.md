@@ -1,8 +1,7 @@
-## v17.3/v6.0.1 rev.6
+## v17.3/v6.0.1 rev.7
 
 ### Magisk
-- Use poll instead of select
-- Finish su implementation
-- Rewrite su daemon and client
-- Code cleanups
-- Simplify su_info caches
+- Fix bootloop for some devices with two /data
+- Minor reorganization of daemons
+- Remove doc changelogs
+- Update README

@@ -1,4 +1,6 @@
 project Magisk/
+506df00 Upgrade AGP
+a9121fa Reorganize libutils and cleanups
 d5a56d9 Fix bootloop for some devices with two /data
 acf7c0c Minor reorganization of daemons
 619d48c Remove doc changelogs

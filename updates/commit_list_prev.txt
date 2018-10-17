@@ -1,4 +1,12 @@
 project Magisk/
+469adc8 Update Turkish translations
+e1b181c Hide system in MagiskHide list
+a4f0fbf Switch to butterknife
+190cdad Update README
+5c4ba13 Add installation details
+e62630c Add MagiskHide tutorials
+36fe784 Update documentations
+8d150dd Update documentation
 506df00 Upgrade AGP
 a9121fa Reorganize libutils and cleanups
 d5a56d9 Fix bootloop for some devices with two /data
@@ -37,9 +45,3 @@ ac7467f Optimize boot signing to use as little memory as possible
 2c04362 Prevent null strings in modules/repos
 017fbf2 Fix small theme config issue
 e6afbf2 Force remove busybox from APK
-906b4aa New method of communication
-4cf8d41 Fix FlashActivity crash
-47c8601 Use ClassMaps to prevent errors
-2fba3f2 Use proper socket address length
-af7c6f9 Fix FlashActivity crash
-78534de Excessive obfuscation when building in release mode

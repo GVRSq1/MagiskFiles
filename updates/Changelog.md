@@ -1,11 +1,6 @@
-## v17.3/v6.0.1 rev.9
+## v17.3/v6.0.1 rev.10
 
 ### Magisk
-- Update Turkish translations
-- Hide system in MagiskHide list
-- Switch to butterknife
-- Update README
-- Add installation details
-- Add MagiskHide tutorials
-- Update documentations
-- Update documentation
+- Prevent Resources
+- Fix close button in FlashActivity
+- Switch to general Samsung defex patch

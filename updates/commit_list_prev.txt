@@ -1,4 +1,7 @@
 project Magisk/
+48c40f9 Prevent Resources
+e0e7674 Fix close button in FlashActivity
+e1a6527 Switch to general Samsung defex patch
 469adc8 Update Turkish translations
 e1b181c Hide system in MagiskHide list
 a4f0fbf Switch to butterknife
@@ -43,5 +46,3 @@ a292a1d Cleanup and add new rules
 244e811 Remove icon padding in preference screen
 ac7467f Optimize boot signing to use as little memory as possible
 2c04362 Prevent null strings in modules/repos
-017fbf2 Fix small theme config issue
-e6afbf2 Force remove busybox from APK

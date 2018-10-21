@@ -1,4 +1,15 @@
 project Magisk/
+778e78a Revert "Properly support boot image header v1"
+c2b0163 Make a copy of logcat and use that instead
+fc791b4 Fix Dark theme to display cards as slightly lighter than background as per Material Design standards. Also redirect colors to app as opposed to calling on framework
+f76bb00 Update changelogs
+8a1292b Ask permissions to read internal storage
+d7d80d3 Update encryption detection for determining default flags
+41b0100 Always ACK before doing anything
+6557070 Try to flush database before uninstalling
+e7e580e Remove support for Magisk lower than 1500
+dd9ddd2 Remove unnecessary instruction from Defex hexpatch
+74aae52 Properly support boot image header v1
 48c40f9 Prevent Resources
 e0e7674 Fix close button in FlashActivity
 e1a6527 Switch to general Samsung defex patch
@@ -37,12 +48,3 @@ df8b047 Generalize logging interface
 971a50d Update to Android Studio 3.2
 36dd910 Stable AndroidX
 0a4ee3f Update README.MD
-cfe32f1 Update Magisk Manager changelogs
-d877f5d update Ukrainian strings
-0ab6ffe utils/misc.c: prevent file staying opened when function leaving
-a292a1d Cleanup and add new rules
-3f87f6a Fix output in Magisk Manager if no root exists
-04bcd14 Add a.a alias to BootSigner
-244e811 Remove icon padding in preference screen
-ac7467f Optimize boot signing to use as little memory as possible
-2c04362 Prevent null strings in modules/repos

@@ -1,5 +1,5 @@
 project Magisk/
-778e78a Revert "Properly support boot image header v1"
+018c006 Make sure boot_img is initialized correctly
 c2b0163 Make a copy of logcat and use that instead
 fc791b4 Fix Dark theme to display cards as slightly lighter than background as per Material Design standards. Also redirect colors to app as opposed to calling on framework
 f76bb00 Update changelogs
@@ -46,5 +46,3 @@ df8b047 Generalize logging interface
 12ced52 Remove unused flag
 1d53335 Dynamic load libselinux
 971a50d Update to Android Studio 3.2
-36dd910 Stable AndroidX
-0a4ee3f Update README.MD

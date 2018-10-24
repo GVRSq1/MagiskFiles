@@ -1,4 +1,4 @@
-## v17.4/v6.0.2 rev.2
+## v17.4/v6.0.2 rev.1
 
 ### Magisk
-- Make sure boot_img is initialized correctly
+- Fix crash when using other su

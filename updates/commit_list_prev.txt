@@ -1,4 +1,5 @@
 project Magisk/
+01e7dff Fix crash when using other su
 018c006 Make sure boot_img is initialized correctly
 c2b0163 Make a copy of logcat and use that instead
 fc791b4 Fix Dark theme to display cards as slightly lighter than background as per Material Design standards. Also redirect colors to app as opposed to calling on framework

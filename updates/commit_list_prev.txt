@@ -1,4 +1,7 @@
 project Magisk/
+9954154 Move functions out of libutils
+4ecbf8c Remove recovery_dtbo when cleanup
+fc8a3c5 Migrate MagiskBoot to C++
 01e7dff Fix crash when using other su
 018c006 Make sure boot_img is initialized correctly
 c2b0163 Make a copy of logcat and use that instead
@@ -46,4 +49,3 @@ cce6362 Reorganization
 df8b047 Generalize logging interface
 12ced52 Remove unused flag
 1d53335 Dynamic load libselinux
-971a50d Update to Android Studio 3.2

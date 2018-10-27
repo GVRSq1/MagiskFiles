@@ -1,4 +1,8 @@
 project Magisk/
+675d6d8 Make dark theme cards slightly darker
+6dc9cca Use const char*
+6add027 Fix bug in MagiskBoot
+958d637 Improve XML string matching code
 9954154 Move functions out of libutils
 4ecbf8c Remove recovery_dtbo when cleanup
 fc8a3c5 Migrate MagiskBoot to C++
@@ -44,8 +48,3 @@ b127e01 Simplify debug flag propagation
 2118bee Magisk-Modules-Repo now names repo with ID, simplify logic here
 5020cd1 Small cleanup
 cce6362 Reorganization
-60b3b8d Better incremental builds
-41446ec Separate libutils and libsystemproperties
-df8b047 Generalize logging interface
-12ced52 Remove unused flag
-1d53335 Dynamic load libselinux

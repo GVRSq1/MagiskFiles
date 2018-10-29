@@ -1,4 +1,26 @@
 project Magisk/
+1f3f881 Skip files when scanning modules
+ceb51bb daemon.c uses external flags
+3e22573 Upgrade snet extension
+79418a3 Upgrade Bouncycastle
+40d4683 Hint what FBE means in details.md
+79e5b54 Remove redundant semicolon
+bd81923 Revert "Make dark theme cards slightly darker"
+69560b8 Fix and prevent crashes
+dc413e7 Retry db construction if first time failed
+7fc00c4 Buffer OutputStream to prevent broken pipe error
+2efc423 Add missing flags and move debug logging logic to libutils
+8ec3086 Make sure magisklogd is properly initialized
+5fc7079 Sort Policies before returning
+bfbd254 Update donation link
+f8ea434 Only allow device owner to hide/restore Magisk Manager
+75ab1fa Micro optimizations
+bf4a46d Optimize logging in Magisk Manager
+1046dd5 Default to cmdline logging
+f9e32a1 Fix bug when query database with specific keys
+dbb8b8a Handle magisk.db completely natively
+2a65c3d Prepare for new database implementation
+f17ec9e Update sqlite header
 675d6d8 Make dark theme cards slightly darker
 6dc9cca Use const char*
 6add027 Fix bug in MagiskBoot
@@ -40,11 +62,3 @@ e8e39e0 Use poll instead of select
 d119dd9 Rewrite su daemon and client
 09ef19f Code cleanups
 6a06c92 Simplify su_info caches
-58ae596 Require fp auth when toggling su permission if required
-f1ca216 Set boolean when toggling
-d7eeef2 Separate fingerprint authentication dialog code
-4f62689 Cleanup
-b127e01 Simplify debug flag propagation
-2118bee Magisk-Modules-Repo now names repo with ID, simplify logic here
-5020cd1 Small cleanup
-cce6362 Reorganization

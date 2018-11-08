@@ -1,4 +1,24 @@
 project Magisk/
+be5f00a Prevent stack overflow when managing hide list
+59ba350 Fix copy and move assigments of Array
+803c537 Clean init.c
+7c12bf7 Modernize code base
+ca35a96 Minor code improvements
+9fe5f37 Minor code improvements
+0742901 Modernize database code
+5e4d2de Minor log_daemon changes
+411ea56 Add personal update script to gitignore
+cda57dd Fully migrate Magisk to C++
+4351de5 Migrate exec function to C++ arrays
+6339ba6 Upgrade libutils to C++
+ef6677f Source reorganization
+a7824af Expose persist prop API
+1eb7d7b Add FLAG_INCLUDE_STOPPED_PACKAGES for broadcast
+11c33d4 Migrate resetprop to C++
+b8a3cc8 Separate magiskhide logic from main daemon
+27c6882 Store hidelist in magisk database
+3e2afd4 Better debugging output
+f45b068 Mount ext4 images with noatime flag
 1f3f881 Skip files when scanning modules
 ceb51bb daemon.c uses external flags
 3e22573 Upgrade snet extension
@@ -55,10 +75,3 @@ e62630c Add MagiskHide tutorials
 a9121fa Reorganize libutils and cleanups
 d5a56d9 Fix bootloop for some devices with two /data
 acf7c0c Minor reorganization of daemons
-619d48c Remove doc changelogs
-2cb198c Update README
-e8e39e0 Use poll instead of select
-3786018 Finish su implementation
-d119dd9 Rewrite su daemon and client
-09ef19f Code cleanups
-6a06c92 Simplify su_info caches

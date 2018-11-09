@@ -1,4 +1,13 @@
 project Magisk/
+3603b7c Move cmdline and extra_cmdline to the same line
+5743c72 Minor cleanup
+4cdd66c Fix lowmemorykiller crash hell in Pixel 3
+d3947d2 Adjust logging in magiskpolicy
+07718b9 Fix magiskinit
+ef9d463 Fix PLOGE
+8745c78 Rename Array to Vector
+b696510 Better parsing logic
+3d269fe Migrate MagiskInit to C++
 be5f00a Prevent stack overflow when managing hide list
 59ba350 Fix copy and move assigments of Array
 803c537 Clean init.c

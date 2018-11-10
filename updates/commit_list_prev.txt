@@ -1,4 +1,6 @@
 project Magisk/
+c61c3ae Fix su shell environment setup
+817350c Update AndroidX
 3603b7c Move cmdline and extra_cmdline to the same line
 5743c72 Minor cleanup
 4cdd66c Fix lowmemorykiller crash hell in Pixel 3

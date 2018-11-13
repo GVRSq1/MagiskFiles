@@ -1,4 +1,9 @@
 project Magisk/
+89e0be0 Fix a bug causing magiskhide CLI freezing
+ef40c12 Prevent infinite loop if process is killed
+3a2a2a4 Micro optimizations
+9592a69 Prevent unmounting non-custom mount points
+89be07e Update to libsu 2.0.3
 c61c3ae Fix su shell environment setup
 817350c Update AndroidX
 3603b7c Move cmdline and extra_cmdline to the same line
@@ -82,7 +87,3 @@ a4f0fbf Switch to butterknife
 e62630c Add MagiskHide tutorials
 36fe784 Update documentations
 8d150dd Update documentation
-506df00 Upgrade AGP
-a9121fa Reorganize libutils and cleanups
-d5a56d9 Fix bootloop for some devices with two /data
-acf7c0c Minor reorganization of daemons

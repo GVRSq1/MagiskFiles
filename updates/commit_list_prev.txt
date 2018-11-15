@@ -1,4 +1,5 @@
 project Magisk/
+ee45482 Disable native systemless hosts, add built-in systemless hosts module
 96b93bd Add function to find manager APK
 927f69f Brazilian Portuguese Update
 7e9ad59 Fix grammatical errors, unnatural-sounding English and bad punctuation

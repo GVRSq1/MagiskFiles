@@ -1,8 +1,9 @@
-## v17.4/v6.0.2 rev.13
+## v17.4/v6.0.2 rev.14
 
 ### Magisk
-- Fix a bug causing magiskhide CLI freezing
-- Prevent infinite loop if process is killed
-- Micro optimizations
-- Prevent unmounting non-custom mount points
-- Update to libsu 2.0.3
+- Add function to find manager APK
+- Brazilian Portuguese Update
+- Fix grammatical errors, unnatural-sounding English and bad punctuation
+- Add 15 and 45 second Request Timeout options.
+- Deprecate path /sbin/.core, switch to /sbin/.magisk
+- Change stock boot image SHA1 backup method

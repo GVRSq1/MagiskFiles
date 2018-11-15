@@ -1,4 +1,10 @@
 project Magisk/
+96b93bd Add function to find manager APK
+927f69f Brazilian Portuguese Update
+7e9ad59 Fix grammatical errors, unnatural-sounding English and bad punctuation
+6d6b078 Add 15 and 45 second Request Timeout options.
+376e797 Deprecate path /sbin/.core, switch to /sbin/.magisk
+83ae66d Change stock boot image SHA1 backup method
 89e0be0 Fix a bug causing magiskhide CLI freezing
 ef40c12 Prevent infinite loop if process is killed
 3a2a2a4 Micro optimizations
@@ -82,8 +88,3 @@ e1a6527 Switch to general Samsung defex patch
 469adc8 Update Turkish translations
 e1b181c Hide system in MagiskHide list
 a4f0fbf Switch to butterknife
-190cdad Update README
-5c4ba13 Add installation details
-e62630c Add MagiskHide tutorials
-36fe784 Update documentations
-8d150dd Update documentation

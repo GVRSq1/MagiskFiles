@@ -1,4 +1,10 @@
 project Magisk/
+ab5fedd Prevent Magisk database race condition
+ba70269 Directly print output over socket
+77fd5fa Do not follow symlink when checking legacy paths
+ab74290 Move magiskhide config into database
+3aad9d8 Add CLI to detect MagiskHide status
+572e078 Fully deprecate <mount_point>/.core folder
 ee45482 Disable native systemless hosts, add built-in systemless hosts module
 96b93bd Add function to find manager APK
 927f69f Brazilian Portuguese Update
@@ -85,7 +91,3 @@ dd9ddd2 Remove unnecessary instruction from Defex hexpatch
 74aae52 Properly support boot image header v1
 48c40f9 Prevent Resources
 e0e7674 Fix close button in FlashActivity
-e1a6527 Switch to general Samsung defex patch
-469adc8 Update Turkish translations
-e1b181c Hide system in MagiskHide list
-a4f0fbf Switch to butterknife

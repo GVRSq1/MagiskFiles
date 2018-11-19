@@ -1,9 +1,10 @@
-## v17.4/v6.0.2 rev.16
+## v17.4/v6.0.2 rev.17
 
 ### Magisk
-- Prevent Magisk database race condition
-- Directly print output over socket
-- Do not follow symlink when checking legacy paths
-- Move magiskhide config into database
-- Add CLI to detect MagiskHide status
-- Fully deprecate <mount_point>/.core folder
+- Update busybox
+- Update external dependencies
+- Update to 1.29.3
+
+### Selinux
+- Add NDK support to libsepol
+- Add Android M policy compatibility

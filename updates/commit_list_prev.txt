@@ -1,4 +1,7 @@
 project Magisk/
+3622c49 Update busybox
+0462e9a Update external dependencies
+c3a6091 Update to 1.29.3
 ab5fedd Prevent Magisk database race condition
 ba70269 Directly print output over socket
 77fd5fa Do not follow symlink when checking legacy paths
@@ -87,7 +90,6 @@ d7d80d3 Update encryption detection for determining default flags
 41b0100 Always ACK before doing anything
 6557070 Try to flush database before uninstalling
 e7e580e Remove support for Magisk lower than 1500
-dd9ddd2 Remove unnecessary instruction from Defex hexpatch
-74aae52 Properly support boot image header v1
-48c40f9 Prevent Resources
-e0e7674 Fix close button in FlashActivity
+project Magisk/native/jni/external/selinux/
+c49f5e9 Add NDK support to libsepol
+1c5b68e Add Android M policy compatibility

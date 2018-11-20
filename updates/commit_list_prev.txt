@@ -1,4 +1,11 @@
 project Magisk/
+de0064a Fix SIGWINCH never followed
+baae1fc Modernize selinux stub
+2ab999f Fix bug in DB query wrapper
+c9f390d Abort upon any error occurred
+af05922 Update romanian strings
+299edbf Updated Vietnamese translations
+c8abed9 French translation update
 3622c49 Update busybox
 0462e9a Update external dependencies
 c3a6091 Update to 1.29.3
@@ -82,14 +89,6 @@ f17ec9e Update sqlite header
 fc8a3c5 Migrate MagiskBoot to C++
 01e7dff Fix crash when using other su
 018c006 Make sure boot_img is initialized correctly
-c2b0163 Make a copy of logcat and use that instead
-fc791b4 Fix Dark theme to display cards as slightly lighter than background as per Material Design standards. Also redirect colors to app as opposed to calling on framework
-f76bb00 Update changelogs
-8a1292b Ask permissions to read internal storage
-d7d80d3 Update encryption detection for determining default flags
-41b0100 Always ACK before doing anything
-6557070 Try to flush database before uninstalling
-e7e580e Remove support for Magisk lower than 1500
 project Magisk/native/jni/external/selinux/
 c49f5e9 Add NDK support to libsepol
 1c5b68e Add Android M policy compatibility

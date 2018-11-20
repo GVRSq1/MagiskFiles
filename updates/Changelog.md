@@ -1,10 +1,10 @@
-## v17.4/v6.0.2 rev.17
+## v17.4/v6.0.2 rev.18
 
 ### Magisk
-- Update busybox
-- Update external dependencies
-- Update to 1.29.3
-
-### Selinux
-- Add NDK support to libsepol
-- Add Android M policy compatibility
+- Fix SIGWINCH never followed
+- Modernize selinux stub
+- Fix bug in DB query wrapper
+- Abort upon any error occurred
+- Update romanian strings
+- Updated Vietnamese translations
+- French translation update

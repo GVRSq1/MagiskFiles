@@ -1,10 +1,8 @@
-## v17.4/v6.0.2 rev.18
+## v17.4/v6.0.2 rev.19
 
 ### Magisk
-- Fix SIGWINCH never followed
-- Modernize selinux stub
-- Fix bug in DB query wrapper
-- Abort upon any error occurred
-- Update romanian strings
-- Updated Vietnamese translations
-- French translation update
+- Prevent file descriptor from unclosed
+- Prevent any SELinux issues of root shell streams
+- Use component name as targets
+- Optimize proc_monitor
+- Remove /.backup folder on start

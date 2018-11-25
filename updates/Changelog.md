@@ -1,8 +1,7 @@
-## v17.4/v6.0.2 rev.19
+## v17.4/v6.0.2 rev.20
 
 ### Magisk
-- Prevent file descriptor from unclosed
-- Prevent any SELinux issues of root shell streams
-- Use component name as targets
-- Optimize proc_monitor
-- Remove /.backup folder on start
+- Update dependencies
+- Minor fixes to RU strings
+- Update Indonesian translations
+- Silent some errors

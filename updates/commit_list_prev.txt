@@ -1,4 +1,8 @@
 project Magisk/
+2a9ff9c Update dependencies
+6d49f05 Minor fixes to RU strings
+85a5e62 Update Indonesian translations
+e67965a Silent some errors
 ec47230 Prevent file descriptor from unclosed
 762b678 Prevent any SELinux issues of root shell streams
 38fcc57 Use component name as targets
@@ -88,7 +92,6 @@ f17ec9e Update sqlite header
 675d6d8 Make dark theme cards slightly darker
 6dc9cca Use const char*
 6add027 Fix bug in MagiskBoot
-958d637 Improve XML string matching code
 project Magisk/native/jni/external/selinux/
 c49f5e9 Add NDK support to libsepol
 1c5b68e Add Android M policy compatibility

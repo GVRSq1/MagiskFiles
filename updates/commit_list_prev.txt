@@ -1,4 +1,9 @@
 project Magisk/
+29457a1 Small adjustments
+731455f Update exec functions signatures
+b01a8ca Always try native accept4
+72db5b4 Update zh-rCN translation
+ddfd429 Module id and name can no longer be null
 2a9ff9c Update dependencies
 6d49f05 Minor fixes to RU strings
 85a5e62 Update Indonesian translations
@@ -88,10 +93,6 @@ bf4a46d Optimize logging in Magisk Manager
 f9e32a1 Fix bug when query database with specific keys
 dbb8b8a Handle magisk.db completely natively
 2a65c3d Prepare for new database implementation
-f17ec9e Update sqlite header
-675d6d8 Make dark theme cards slightly darker
-6dc9cca Use const char*
-6add027 Fix bug in MagiskBoot
 project Magisk/native/jni/external/selinux/
 c49f5e9 Add NDK support to libsepol
 1c5b68e Add Android M policy compatibility

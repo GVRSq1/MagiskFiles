@@ -1,4 +1,9 @@
 project Magisk/
+a9f265a Small grammatical changes / values-it
+5b62fc8 Update Bulgarian translation
+0598f5f Update Bulgarian translation
+f723427 Add built-in procfs protection on SDK 24+
+f69a004 Use raw execve
 1134b18 Rename application label to "Magic" to prevent detection
 2e4aa50 Use magisk to clone file attributes
 5fb96cd Auto launch new app after repackaging/restoring Manager
@@ -77,15 +82,6 @@ b8a3cc8 Separate magiskhide logic from main daemon
 27c6882 Store hidelist in magisk database
 3e2afd4 Better debugging output
 f45b068 Mount ext4 images with noatime flag
-1f3f881 Skip files when scanning modules
-ceb51bb daemon.c uses external flags
-3e22573 Upgrade snet extension
-79418a3 Upgrade Bouncycastle
-40d4683 Hint what FBE means in details.md
-79e5b54 Remove redundant semicolon
-bd81923 Revert "Make dark theme cards slightly darker"
-69560b8 Fix and prevent crashes
-dc413e7 Retry db construction if first time failed
 project Magisk/native/jni/external/selinux/
 c49f5e9 Add NDK support to libsepol
 1c5b68e Add Android M policy compatibility

@@ -1,4 +1,10 @@
 project Magisk/
+9b170f2 Switch from deprecated AUDITDENY to DONTAUDIT
+51e9ff5 Temporarily suppress warnings when applying Magisk rules
+2977dbc Remove all dontaudit in magisk rules
+ac60b51 Support removing redundant avtab nodes
+4c2f33a Remove '--install'
+3b07111 Update magiskpolicy
 a9f265a Small grammatical changes / values-it
 5b62fc8 Update Bulgarian translation
 0598f5f Update Bulgarian translation
@@ -81,7 +87,14 @@ a7824af Expose persist prop API
 b8a3cc8 Separate magiskhide logic from main daemon
 27c6882 Store hidelist in magisk database
 3e2afd4 Better debugging output
-f45b068 Mount ext4 images with noatime flag
 project Magisk/native/jni/external/selinux/
-c49f5e9 Add NDK support to libsepol
-1c5b68e Add Android M policy compatibility
+4d7d59c Add function: avtab_remove_node
+6580212 Add Android M policy compatibility
+cdfd11b Add NDK support to libsepol
+49c13dd libsepol: ibpkeys.c: fix printf format string specifiers for subnet_prefix
+3b0dbed gui: remove html_util.py
+3a40d05 dbus: remove deprecated at_console statement
+b4b0074 libselinux: selinux_restorecon: fix printf format string specifier for uint64_t
+a3be73b python: replace aliases with corresponding type names
+46c5207 libsepol: mark permissive types when loading a binary policy
+3f99b14 libselinux: fix overly strict validation of file_contexts.bin

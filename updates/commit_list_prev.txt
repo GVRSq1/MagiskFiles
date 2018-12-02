@@ -1,4 +1,11 @@
 project Magisk/
+fe231a4 Rename app name to Manager
+2e2bbe0 A small fix
+857e6e8 Tweak notifications
+3402981 Move some string resources
+f401e57 Better Proguard optimization
+0241a50 Stop using platform provided DownloadManager
+2a2e123 Use magic macros
 9b170f2 Switch from deprecated AUDITDENY to DONTAUDIT
 51e9ff5 Temporarily suppress warnings when applying Magisk rules
 2977dbc Remove all dontaudit in magisk rules
@@ -84,9 +91,6 @@ ef6677f Source reorganization
 a7824af Expose persist prop API
 1eb7d7b Add FLAG_INCLUDE_STOPPED_PACKAGES for broadcast
 11c33d4 Migrate resetprop to C++
-b8a3cc8 Separate magiskhide logic from main daemon
-27c6882 Store hidelist in magisk database
-3e2afd4 Better debugging output
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility

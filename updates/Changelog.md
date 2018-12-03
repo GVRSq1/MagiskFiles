@@ -1,10 +1,11 @@
-## v17.4/v6.0.2 rev.25
+## v17.4/v6.0.2 rev.26
 
 ### Magisk
-- Rename app name to Manager
-- A small fix
-- Tweak notifications
-- Move some string resources
-- Better Proguard optimization
-- Stop using platform provided DownloadManager
-- Use magic macros
+- Show failure when download fails
+- Use notifications when downloading modules
+- Remove debug loggin in GeneralReceiver
+- Reduce BroadcastReceivers
+- Some cleanups
+- Fix string resources in shortcut
+- Better progress notifications
+- French translation update

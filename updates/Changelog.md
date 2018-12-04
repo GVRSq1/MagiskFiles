@@ -1,11 +1,16 @@
-## v17.4/v6.0.2 rev.26
+## v17.4/v6.0.2 rev.27
 
 ### Magisk
-- Show failure when download fails
-- Use notifications when downloading modules
-- Remove debug loggin in GeneralReceiver
-- Reduce BroadcastReceivers
-- Some cleanups
-- Fix string resources in shortcut
-- Better progress notifications
-- French translation update
+- Update Indonesian translations
+- Adjust for new FrankeNDK
+- Use flags for smaller binary
+- Update trad. Chinese translation
+- Optimize imports
+- Update French translation
+- Update zh-rCN translation
+- Update CheckUpdate
+- Patch app label when repackaging
+- Allow multiple progress notifications
+- Use notifications for hiding manager
+- Make progress notifications persist
+- Small reorganization

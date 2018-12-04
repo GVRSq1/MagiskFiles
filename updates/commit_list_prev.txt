@@ -1,4 +1,17 @@
 project Magisk/
+5d3a8a5 Update Indonesian translations
+79b84da Adjust for new FrankeNDK
+68b07c5 Use flags for smaller binary
+553db91 Update trad. Chinese translation
+b495f37 Optimize imports
+1915547 Update French translation
+03de291 Update zh-rCN translation
+86d8b50 Update CheckUpdate
+7b04386 Patch app label when repackaging
+07bfdf3 Allow multiple progress notifications
+d510224 Use notifications for hiding manager
+e658f92 Make progress notifications persist
+2b502e9 Small reorganization
 59141f9 Show failure when download fails
 3af66b7 Use notifications when downloading modules
 422c24b Remove debug loggin in GeneralReceiver
@@ -93,7 +106,6 @@ ca35a96 Minor code improvements
 5e4d2de Minor log_daemon changes
 411ea56 Add personal update script to gitignore
 cda57dd Fully migrate Magisk to C++
-4351de5 Migrate exec function to C++ arrays
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility

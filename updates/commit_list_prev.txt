@@ -1,4 +1,5 @@
 project Magisk/
+08cd5b8 Try to repair boot_hdr v1 entries
 5d3a8a5 Update Indonesian translations
 79b84da Adjust for new FrankeNDK
 68b07c5 Use flags for smaller binary

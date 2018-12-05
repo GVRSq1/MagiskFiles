@@ -1,4 +1,6 @@
-## v17.4/v6.0.2 rev.28
+## v17.4/v6.0.2 rev.29
 
 ### Magisk
-- Try to repair boot_hdr v1 entries
+- Fix APK installation on old Android versions
+- Update strings.xml
+- Update String Spanish full ver

@@ -1,4 +1,13 @@
 project Magisk/
+1fae89c Add new cpio command: "exists", to magiskboot
+8b40087 Add backward compat paths
+fd4faf5 Use tr for replacing whitespace to newline
+109891d Make apk_install more portable
+bdea796 Fix strings
+c8813c0 Italian translation update
+1cff08c Fix possible error block counts Add "-k" parameter to force the unit to 1024 bytes.
+a868118 Use defined symbols in SDK 16 libsqlite.so
+e5c62f5 Allow post-fs-data module scripts to change module state
 4084e87 Fix APK installation on old Android versions
 8d931dd Update strings.xml
 25d6366 Update String Spanish full ver
@@ -105,7 +114,6 @@ be5f00a Prevent stack overflow when managing hide list
 803c537 Clean init.c
 7c12bf7 Modernize code base
 ca35a96 Minor code improvements
-9fe5f37 Minor code improvements
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility
@@ -116,4 +124,3 @@ cdfd11b Add NDK support to libsepol
 b4b0074 libselinux: selinux_restorecon: fix printf format string specifier for uint64_t
 a3be73b python: replace aliases with corresponding type names
 46c5207 libsepol: mark permissive types when loading a binary policy
-3f99b14 libselinux: fix overly strict validation of file_contexts.bin

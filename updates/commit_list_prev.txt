@@ -1,4 +1,6 @@
 project Magisk/
+9c63e31 Remove unnecessary empty lines
+c91f809 Remove all backwards compatibility nonsense
 a54eaf5 Hardcode snet extension URL and version
 8032bd4 Add v6.1.0 changelog
 ea1beec Tweak some strings
@@ -107,14 +109,6 @@ ef40c12 Prevent infinite loop if process is killed
 c61c3ae Fix su shell environment setup
 817350c Update AndroidX
 3603b7c Move cmdline and extra_cmdline to the same line
-5743c72 Minor cleanup
-4cdd66c Fix lowmemorykiller crash hell in Pixel 3
-d3947d2 Adjust logging in magiskpolicy
-07718b9 Fix magiskinit
-ef9d463 Fix PLOGE
-8745c78 Rename Array to Vector
-b696510 Better parsing logic
-3d269fe Migrate MagiskInit to C++
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility

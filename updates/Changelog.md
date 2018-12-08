@@ -1,12 +1,9 @@
-## v17.4/v6.0.2 rev.30
+## v18.0/v6.1.0 rev.0
 
 ### Magisk
-- Add new cpio command: "exists", to magiskboot
-- Add backward compat paths
-- Use tr for replacing whitespace to newline
-- Make apk_install more portable
-- Fix strings
-- Italian translation update
-- Fix possible error block counts Add "-k" parameter to force the unit to 1024 bytes.
-- Use defined symbols in SDK 16 libsqlite.so
-- Allow post-fs-data module scripts to change module state
+- Hardcode snet extension URL and version
+- Add v6.1.0 changelog
+- Tweak some strings
+- Little correction ca-string
+- Stop signing module zips
+- Fix and optimize APK installations

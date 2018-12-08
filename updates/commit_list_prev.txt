@@ -1,4 +1,10 @@
 project Magisk/
+a54eaf5 Hardcode snet extension URL and version
+8032bd4 Add v6.1.0 changelog
+ea1beec Tweak some strings
+05f2f68 Little correction ca-string
+0f5f15a Stop signing module zips
+14ac37e Fix and optimize APK installations
 1fae89c Add new cpio command: "exists", to magiskboot
 8b40087 Add backward compat paths
 fd4faf5 Use tr for replacing whitespace to newline
@@ -109,11 +115,6 @@ ef9d463 Fix PLOGE
 8745c78 Rename Array to Vector
 b696510 Better parsing logic
 3d269fe Migrate MagiskInit to C++
-be5f00a Prevent stack overflow when managing hide list
-59ba350 Fix copy and move assigments of Array
-803c537 Clean init.c
-7c12bf7 Modernize code base
-ca35a96 Minor code improvements
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility
@@ -123,4 +124,3 @@ cdfd11b Add NDK support to libsepol
 3a40d05 dbus: remove deprecated at_console statement
 b4b0074 libselinux: selinux_restorecon: fix printf format string specifier for uint64_t
 a3be73b python: replace aliases with corresponding type names
-46c5207 libsepol: mark permissive types when loading a binary policy

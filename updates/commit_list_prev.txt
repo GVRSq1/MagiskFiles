@@ -1,4 +1,11 @@
 project Magisk/
+b245931 Prevent duplicates when "." or ".." occurs
+fd5e426 Update docs
+c75512b Don't try to force reload if network drop
+a22e7aa Update italian translation
+020dd97 Update French translation
+e9882d9 Use am to launch apps
+fd4a27d Fix NPE when unexpected network drop
 9c63e31 Remove unnecessary empty lines
 c91f809 Remove all backwards compatibility nonsense
 a54eaf5 Hardcode snet extension URL and version
@@ -107,8 +114,6 @@ ef40c12 Prevent infinite loop if process is killed
 9592a69 Prevent unmounting non-custom mount points
 89be07e Update to libsu 2.0.3
 c61c3ae Fix su shell environment setup
-817350c Update AndroidX
-3603b7c Move cmdline and extra_cmdline to the same line
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility

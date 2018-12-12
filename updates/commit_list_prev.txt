@@ -1,4 +1,8 @@
 project Magisk/
+006d28a Minor documentation fix
+59b1e63 Use internal library for networking
+eab74ef Little fix for French translation
+89837de Update strings.xml
 b245931 Prevent duplicates when "." or ".." occurs
 fd5e426 Update docs
 c75512b Don't try to force reload if network drop
@@ -113,7 +117,6 @@ ef40c12 Prevent infinite loop if process is killed
 3a2a2a4 Micro optimizations
 9592a69 Prevent unmounting non-custom mount points
 89be07e Update to libsu 2.0.3
-c61c3ae Fix su shell environment setup
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility
@@ -121,5 +124,3 @@ cdfd11b Add NDK support to libsepol
 49c13dd libsepol: ibpkeys.c: fix printf format string specifiers for subnet_prefix
 3b0dbed gui: remove html_util.py
 3a40d05 dbus: remove deprecated at_console statement
-b4b0074 libselinux: selinux_restorecon: fix printf format string specifier for uint64_t
-a3be73b python: replace aliases with corresponding type names

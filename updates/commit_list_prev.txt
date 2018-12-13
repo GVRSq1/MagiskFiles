@@ -1,4 +1,7 @@
 project Magisk/
+fd77866 Small refactoring fixes
+bce9cfa Update LocaleManager
+ff3d66a Separate backend logic from frontend UI
 006d28a Minor documentation fix
 59b1e63 Use internal library for networking
 eab74ef Little fix for French translation
@@ -112,11 +115,6 @@ ee45482 Disable native systemless hosts, add built-in systemless hosts module
 6d6b078 Add 15 and 45 second Request Timeout options.
 376e797 Deprecate path /sbin/.core, switch to /sbin/.magisk
 83ae66d Change stock boot image SHA1 backup method
-89e0be0 Fix a bug causing magiskhide CLI freezing
-ef40c12 Prevent infinite loop if process is killed
-3a2a2a4 Micro optimizations
-9592a69 Prevent unmounting non-custom mount points
-89be07e Update to libsu 2.0.3
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility

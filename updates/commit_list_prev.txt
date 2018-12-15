@@ -1,4 +1,9 @@
 project Magisk/
+7e4a15e Revert "Update LocaleManager"
+dd2c9ee Removed strings that weren't to be translated, just in case
+740d76b Created a Norwegian Bokmål translation, part 3/3(?)
+45f4f5a Created a Norwegian Bokmål translation, part 2/3
+e875de3 Created a Norwegian Bokmål translation, part 1
 fd77866 Small refactoring fixes
 bce9cfa Update LocaleManager
 ff3d66a Separate backend logic from frontend UI
@@ -109,12 +114,6 @@ ab74290 Move magiskhide config into database
 3aad9d8 Add CLI to detect MagiskHide status
 572e078 Fully deprecate <mount_point>/.core folder
 ee45482 Disable native systemless hosts, add built-in systemless hosts module
-96b93bd Add function to find manager APK
-927f69f Brazilian Portuguese Update
-7e9ad59 Fix grammatical errors, unnatural-sounding English and bad punctuation
-6d6b078 Add 15 and 45 second Request Timeout options.
-376e797 Deprecate path /sbin/.core, switch to /sbin/.magisk
-83ae66d Change stock boot image SHA1 backup method
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility

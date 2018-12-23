@@ -1,5 +1,5 @@
 project Magisk/
-7e4a15e Revert "Update LocaleManager"
+aad9ace Render Markdown natively
 dd2c9ee Removed strings that weren't to be translated, just in case
 740d76b Created a Norwegian Bokmål translation, part 3/3(?)
 45f4f5a Created a Norwegian Bokmål translation, part 2/3
@@ -96,28 +96,8 @@ ec47230 Prevent file descriptor from unclosed
 762b678 Prevent any SELinux issues of root shell streams
 38fcc57 Use component name as targets
 c8c57c7 Optimize proc_monitor
-0784448 Remove /.backup folder on start
-de0064a Fix SIGWINCH never followed
-baae1fc Modernize selinux stub
-2ab999f Fix bug in DB query wrapper
-c9f390d Abort upon any error occurred
-af05922 Update romanian strings
-299edbf Updated Vietnamese translations
-c8abed9 French translation update
-3622c49 Update busybox
-0462e9a Update external dependencies
-c3a6091 Update to 1.29.3
-ab5fedd Prevent Magisk database race condition
-ba70269 Directly print output over socket
-77fd5fa Do not follow symlink when checking legacy paths
-ab74290 Move magiskhide config into database
-3aad9d8 Add CLI to detect MagiskHide status
-572e078 Fully deprecate <mount_point>/.core folder
-ee45482 Disable native systemless hosts, add built-in systemless hosts module
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility
 cdfd11b Add NDK support to libsepol
 49c13dd libsepol: ibpkeys.c: fix printf format string specifiers for subnet_prefix
-3b0dbed gui: remove html_util.py
-3a40d05 dbus: remove deprecated at_console statement

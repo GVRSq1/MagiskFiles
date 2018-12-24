@@ -1,4 +1,11 @@
 project Magisk/
+8d210b5 Enhance EMUI 9 user experience
+3c6c0e6 Support EMUI 9.0
+01344c4 Move more logic to core module
+2c42c79 Fix crashes on OOS
+75c2cfe Run onResult in main thread
+6c6eeb3 Several minor adjustments
+31053e0 Update Korean translation
 aad9ace Render Markdown natively
 dd2c9ee Removed strings that weren't to be translated, just in case
 740d76b Created a Norwegian Bokmål translation, part 3/3(?)
@@ -92,12 +99,7 @@ ddfd429 Module id and name can no longer be null
 6d49f05 Minor fixes to RU strings
 85a5e62 Update Indonesian translations
 e67965a Silent some errors
-ec47230 Prevent file descriptor from unclosed
-762b678 Prevent any SELinux issues of root shell streams
-38fcc57 Use component name as targets
-c8c57c7 Optimize proc_monitor
 project Magisk/native/jni/external/selinux/
 4d7d59c Add function: avtab_remove_node
 6580212 Add Android M policy compatibility
 cdfd11b Add NDK support to libsepol
-49c13dd libsepol: ibpkeys.c: fix printf format string specifiers for subnet_prefix

@@ -1,5 +1,6 @@
-## v18.1/v6.1.1 rev.8
+## v18.1/v6.1.1 rev.9
 
 ### Magisk
-- Simpler su_info caching system
-- Stop using system STL since it is no longer supported
+- Stop showing dialog when update available
+- Handle vector drawables
+- Support SDK 17 for stub APK

@@ -1,6 +1,10 @@
-## v18.1/v6.1.1 rev.9
+## v18.1/v6.1.1 rev.10
 
 ### Magisk
-- Stop showing dialog when update available
-- Handle vector drawables
-- Support SDK 17 for stub APK
+- Terminate forked children for exec after failure
+- Official KitKat support
+- Use resource alias for launcher icon on API 21-25
+- Backwards compatible to SDK 17
+- Update net module targetSdkVersion
+- Update romanian translation
+- Switch to WorkManager

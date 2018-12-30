@@ -1,4 +1,8 @@
 project Magisk/
+44b969e Minor notification changes
+176e470 Use platform icons for notifications
+646a10d Use foreground service for downloading modules
+52137fd Remove useless service
 3ccac8c Terminate forked children for exec after failure
 0be158a Official KitKat support
 e6942e0 Use resource alias for launcher icon on API 21-25
@@ -86,13 +90,3 @@ fe231a4 Rename app name to Manager
 f401e57 Better Proguard optimization
 0241a50 Stop using platform provided DownloadManager
 2a2e123 Use magic macros
-9b170f2 Switch from deprecated AUDITDENY to DONTAUDIT
-51e9ff5 Temporarily suppress warnings when applying Magisk rules
-2977dbc Remove all dontaudit in magisk rules
-ac60b51 Support removing redundant avtab nodes
-4c2f33a Remove '--install'
-3b07111 Update magiskpolicy
-project Magisk/native/jni/external/selinux/
-4d7d59c Add function: avtab_remove_node
-6580212 Add Android M policy compatibility
-cdfd11b Add NDK support to libsepol

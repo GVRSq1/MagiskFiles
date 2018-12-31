@@ -1,4 +1,16 @@
 project Magisk/
+1df6594 Support Kirin 960 devices
+d9ace35 French translation update
+1fe92ce Update Italian strings
+267868c Switch internal download dir to cache dir
+6d27eb7 Dynamic load updated APK for patching
+2e10fa4 Update WorkManager dependencies
+039be65 Fix Magisk Manager hiding after using WorkManager
+570ecd9 Prevent unnecessary setTextColor
+a575180 Use recyclerlist for FlashActivity console
+07d1a20 Improve StringListAdapter
+76491cb Use more general solution
+bf7d6dd Use recyclerview to show Magisk logs
 44b969e Minor notification changes
 176e470 Use platform icons for notifications
 646a10d Use foreground service for downloading modules

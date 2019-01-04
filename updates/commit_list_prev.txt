@@ -1,4 +1,10 @@
 project Magisk/
+1057d30 Fix dlAPK() for updated net module.
+d63b5d7 A full update to the French translation strings
+ab5f6bf Remove unnecessary css files
+04088b3 Update gradle scripts
+3edcd20 Upgrade dependencies
+7bd52d0 Update net module
 1df6594 Support Kirin 960 devices
 d9ace35 French translation update
 1fe92ce Update Italian strings
@@ -70,35 +76,3 @@ c8813c0 Italian translation update
 1cff08c Fix possible error block counts Add "-k" parameter to force the unit to 1024 bytes.
 a868118 Use defined symbols in SDK 16 libsqlite.so
 e5c62f5 Allow post-fs-data module scripts to change module state
-4084e87 Fix APK installation on old Android versions
-8d931dd Update strings.xml
-25d6366 Update String Spanish full ver
-08cd5b8 Try to repair boot_hdr v1 entries
-5d3a8a5 Update Indonesian translations
-79b84da Adjust for new FrankeNDK
-68b07c5 Use flags for smaller binary
-553db91 Update trad. Chinese translation
-b495f37 Optimize imports
-1915547 Update French translation
-03de291 Update zh-rCN translation
-86d8b50 Update CheckUpdate
-7b04386 Patch app label when repackaging
-07bfdf3 Allow multiple progress notifications
-d510224 Use notifications for hiding manager
-e658f92 Make progress notifications persist
-2b502e9 Small reorganization
-59141f9 Show failure when download fails
-3af66b7 Use notifications when downloading modules
-422c24b Remove debug loggin in GeneralReceiver
-f0f87c8 Reduce BroadcastReceivers
-80dad54 Some cleanups
-56a76df Fix string resources in shortcut
-ee2c801 Better progress notifications
-fc314cc French translation update
-fe231a4 Rename app name to Manager
-2e2bbe0 A small fix
-857e6e8 Tweak notifications
-3402981 Move some string resources
-f401e57 Better Proguard optimization
-0241a50 Stop using platform provided DownloadManager
-2a2e123 Use magic macros

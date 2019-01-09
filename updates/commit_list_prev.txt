@@ -1,5 +1,5 @@
 project Magisk/
-1057d30 Fix dlAPK() for updated net module.
+4ff70ae Fix stub compile error
 d63b5d7 A full update to the French translation strings
 ab5f6bf Remove unnecessary css files
 04088b3 Update gradle scripts
@@ -52,27 +52,3 @@ ff3d66a Separate backend logic from frontend UI
 59b1e63 Use internal library for networking
 eab74ef Little fix for French translation
 89837de Update strings.xml
-b245931 Prevent duplicates when "." or ".." occurs
-fd5e426 Update docs
-c75512b Don't try to force reload if network drop
-a22e7aa Update italian translation
-020dd97 Update French translation
-e9882d9 Use am to launch apps
-fd4a27d Fix NPE when unexpected network drop
-9c63e31 Remove unnecessary empty lines
-c91f809 Remove all backwards compatibility nonsense
-a54eaf5 Hardcode snet extension URL and version
-8032bd4 Add v6.1.0 changelog
-ea1beec Tweak some strings
-05f2f68 Little correction ca-string
-0f5f15a Stop signing module zips
-14ac37e Fix and optimize APK installations
-1fae89c Add new cpio command: "exists", to magiskboot
-8b40087 Add backward compat paths
-fd4faf5 Use tr for replacing whitespace to newline
-109891d Make apk_install more portable
-bdea796 Fix strings
-c8813c0 Italian translation update
-1cff08c Fix possible error block counts Add "-k" parameter to force the unit to 1024 bytes.
-a868118 Use defined symbols in SDK 16 libsqlite.so
-e5c62f5 Allow post-fs-data module scripts to change module state

@@ -1,4 +1,13 @@
 project Magisk/
+aa88486 Fix crashes when APK stored in cache dir
+1d9c441 Fix string errors and update trad. Chinese translation
+928c56b Don't use (deleted) copy constructor, use constructor directly to fix build
+bc6f37e Fixes build error
+ffebff8 Update Ukrainian translation
+6d6bd89 Update zh-rCN translation
+0a64a7e Update util_functions.sh
+586488a Update Indonesian translations
+7b9a45f Fix post ota scripts
 4ff70ae Fix stub compile error
 d63b5d7 A full update to the French translation strings
 ab5f6bf Remove unnecessary css files
@@ -41,14 +50,3 @@ da9c6f6 Switch to WorkManager
 6c6eeb3 Several minor adjustments
 31053e0 Update Korean translation
 aad9ace Render Markdown natively
-dd2c9ee Removed strings that weren't to be translated, just in case
-740d76b Created a Norwegian Bokmål translation, part 3/3(?)
-45f4f5a Created a Norwegian Bokmål translation, part 2/3
-e875de3 Created a Norwegian Bokmål translation, part 1
-fd77866 Small refactoring fixes
-bce9cfa Update LocaleManager
-ff3d66a Separate backend logic from frontend UI
-006d28a Minor documentation fix
-59b1e63 Use internal library for networking
-eab74ef Little fix for French translation
-89837de Update strings.xml

@@ -1,12 +1,16 @@
-## v18.1/v6.1.1 rev.15
+## v18.1/v6.1.1 rev.16
 
 ### Magisk
-- Fix crashes when APK stored in cache dir
-- Fix string errors and update trad. Chinese translation
-- Don't use (deleted) copy constructor, use constructor directly to fix build
-- Fixes build error
-- Update Ukrainian translation
-- Update zh-rCN translation
-- Update util_functions.sh
-- Update Indonesian translations
-- Fix post ota scripts
+- Allow API 17 installation
+- Disable several features in Jellybean
+- Don't mount images when running core-only mode
+- Get API level from build.prop
+- Bump to C++17
+- Migrate to STL
+- Switch to libc++
+- Don't show progress if content length is unavailable
+- Fix reqSizeM check in mount_magisk_img function
+- Update strings.xml
+- Use the least possible memory for boot signing and verification
+- Update scripts
+- Update Android Studio

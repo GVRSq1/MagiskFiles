@@ -1,4 +1,17 @@
 project Magisk/
+8582167 Allow API 17 installation
+f24342f Disable several features in Jellybean
+50b55a7 Don't mount images when running core-only mode
+fdf167d Get API level from build.prop
+a4f8bd4 Bump to C++17
+3e4c12c Migrate to STL
+03c39e6 Switch to libc++
+ab63b0e Don't show progress if content length is unavailable
+6ea42a3 Fix reqSizeM check in mount_magisk_img function
+d366dfc Update strings.xml
+85042fb Use the least possible memory for boot signing and verification
+23e5188 Update scripts
+93ee0c8 Update Android Studio
 aa88486 Fix crashes when APK stored in cache dir
 1d9c441 Fix string errors and update trad. Chinese translation
 928c56b Don't use (deleted) copy constructor, use constructor directly to fix build

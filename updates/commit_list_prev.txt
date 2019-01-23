@@ -1,4 +1,15 @@
 project Magisk/
+b7f6923 Fix segfault on several devices
+118a9f2 Fix crash when clean install
+a44dc8d Migrate to ConstraintLayout (WIP)
+abf19aa Remove unused layout
+d73127b Merge DonationActivity to AboutActivity
+00f4242 Remember user selection of su timeout
+f6a4510 Update WorkManager
+3321542 Small tweaks
+6094bc9 Use integer for string
+a8cd9b3 Create BasePreferenceFragment
+a189dec Centralize configuration management
 8582167 Allow API 17 installation
 f24342f Disable several features in Jellybean
 50b55a7 Don't mount images when running core-only mode
@@ -61,5 +72,3 @@ da9c6f6 Switch to WorkManager
 2c42c79 Fix crashes on OOS
 75c2cfe Run onResult in main thread
 6c6eeb3 Several minor adjustments
-31053e0 Update Korean translation
-aad9ace Render Markdown natively
